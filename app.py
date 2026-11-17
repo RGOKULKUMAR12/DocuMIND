@@ -3,6 +3,7 @@ import json
 
 from src.document_loader import load_pdf
 from src.text_processing import clean_txt
+from src.chunking import create_chunks
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -23,10 +24,33 @@ def main():
                 "content":cleaned_text
             })
     
-    output_path = BASE_DIR / "data" / "output" / f"{Path(pdf_name).stem}.json"
+    chunks = create_chunks(
+        processed_page,
+        chunk_size=500,
+        chunk_overlap=50
+    )
+    print("\n========== CHUNK VALIDATION ==========")
+
+    print("Total chunks:", len(chunks))
+
+    for i, chunk in enumerate(chunks):
+
+        content = chunk["content"]
+
+        assert content.strip(), f"Empty chunk: {i}"
+
+        assert len(content) <= 500, (
+            f"Chunk {i} exceeds limit: {len(content)}"
+        )   
+
+    print("All chunk validations passed!")
     
+    output_path = BASE_DIR / "data" / "output" / f"{Path(pdf_name).stem}_chunks.json"
+    
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
     with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(processed_page, file, indent=4, ensure_ascii=False)
+        json.dump(chunks, file, indent=4, ensure_ascii=False)
     
     print("Json File Created Successfully")
 

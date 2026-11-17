@@ -1,0 +1,1330 @@
+[
+    {
+        "content": "Python\nProgramming\nHans-Petter Halvorsen\nhttps://www.halvorsen.blog",
+        "page_number": 1
+    },
+    {
+        "content": "Python Programming",
+        "page_number": 2
+    },
+    {
+        "content": "Python Programming\nHans-Petter Halvorsen\n2026",
+        "page_number": 3
+    },
+    {
+        "content": "Python Programming\n©Hans-Petter Halvorsen\nJune 12, 2026\nISBN:978-82-691106-4-7\n1",
+        "page_number": 4
+    },
+    {
+        "content": "Preface\nPython is a popular programming language, and it is one of the most used programming languages today.\nPython works on all the main platforms and operating systems used today, such\nWindows, macOS, and Linux.\nPython is a multi-purpose programming language, which can be use for simulation, creating web pages, communicate with database systems, etc.\nMy Blog/Web Site [1]:\nhttps://www.halvorsen.blog",
+        "page_number": 5
+    },
+    {
+        "content": ".\nMy Blog/Web Site [1]:\nhttps://www.halvorsen.blogHere you find lots of technical resources about Technology, Programming, Software Engineering, Automation and Control, Industrial IT, etc.\nHere you find my Web page with Python resources:\nhttps://www.halvorsen.blog/documents/programming/python/\nThese resources are a supplement to this textbook. Here you can download the\nsoftware, download code examples, etc.\nThis Textbook is written in LATEXusing Overleaf.",
+        "page_number": 5
+    },
+    {
+        "content": ".\nThis Textbook is written in LATEXusing Overleaf.LATEXis a document preparation system used for the communication and publication of scientific documents.\n2",
+        "page_number": 5
+    },
+    {
+        "content": "For more information about LATEX:\nhttps://www.latex-project.org\nOverleaf is a web-bases LATEXsystem, meaning you can write your LATEXdocuments\nin your web browser, you co-work and share documents with others.\nFor more information about Overleaf:\nhttps://www.overleaf.com\nPython Books\nYou find other Python textbooks within different domains on my Python Web\npage:\nhttps://www.halvorsen.blog/documents/programming/python/\nPython Books:\n• Python Programming - This is a textbook in Python Programming",
+        "page_number": 6
+    },
+    {
+        "content": "ramming - This is a textbook in Python Programmingwith lots of Practical Examples and Exercises. You will learn the necessary\nfoundation for basic programming with focus on Python.\n• Python for Science and Engineering - This is a textbook in Python\nProgramming with lots of Examples, Exercises, and Practical Applications\nwithin Mathematics, Simulations, etc. The focus is on numerical calculations in mathematics and engineering. Necessary theory is presented in\naddition to many practical examples.",
+        "page_number": 6
+    },
+    {
+        "content": "• Python for Control Engineering - This is a textbook in Python Programming with lots of Examples, Exercises, and Practical Applications\nwithin Mathematics, Simulations, Control Systems, DAQ, Database Systems, etc. The focus is on the use of Python within measurements, data\ncollection (DAQ), control technology, both analysis of control systems\n(stability analysis, frequency response, ...) and implementation of control\nsystems (PID, etc.). Required theory is presented in addition to many",
+        "page_number": 6
+    },
+    {
+        "content": "practical examples and exercises in Python.\n• Python for Software Development - This is a textbook in Python Programming with lots of Examples, Exercises, and Practical Applications\nwithin Software Systems, Software Development, Software Engineering,\nDatabase Systems, Web Application Desktop Applications, GUI Applications, etc. The focus is on the use of Python for creating modern Software\nSystems. Required theory is presented in addition to many practical examples and exercises in Python.\n3",
+        "page_number": 6
+    },
+    {
+        "content": "Video Resources\nIn addition to the textbooks mentioned, lots of videos explaining and complements the different Python topics and examples within the textbook have been\nmade. These are both available on my website and on YouTube.\nBlog:\nhttps://www.halvorsen.blog\nPython Resources:\nhttps://www.halvorsen.blog/documents/programming/python/\nPython Programming Videos:\nhttps://www.youtube.com/playlist?list=PLdb-TcK6Aqj2lH1mtPqlOo−Y ki5UPzp4\nPython for Science and Engineering Videos:",
+        "page_number": 7
+    },
+    {
+        "content": "https://www.youtube.com/playlist?list=PLdb-TcK6Aqj2hlH55Bn5oxFIvyoVbXxQS\nPython for Control Engineering Videos:\nhttps://www.youtube.com/playlist?list=PLdb-TcK6Aqj1Kg6pV3zlrpUnPIRwG2Ox\nPython for Software Development Videos:\nhttps://www.youtube.com/playlist?list=PLdb-TcK6Aqj0E01L69fySfBSemVTCilL\nRaspberry Pi and Python:\nhttps://www.youtube.com/playlist?list=PLdb-TcK6Aqj3Sf5omYT-MLmxckclHi2i7\nInternet of Things with Python:\nhttps://www.youtube.com/playlist?list=PLdb-TcK6Aqj2zP8b1JjzUcFGzTVG13BPh",
+        "page_number": 7
+    },
+    {
+        "content": "m/playlist?list=PLdb-TcK6Aqj2zP8b1JjzUcFGzTVG13BPhYouTube Channel @Industrial IT and Automation\nhttps://www.youtube.com/IndustrialITandAutomation\nProgramming\nThe way we create software today has changed dramatically the last 30 years,\nfrom the childhood of personal computers in the early 80s to today’s powerful\ndevices such as Smartphones, Tablets and PCs.\nThe Internet has also changed the way we use devices and software. We still",
+        "page_number": 7
+    },
+    {
+        "content": "nged the way we use devices and software. We stillhave traditional desktop applications, but Web Sites, Web Applications and socalled Apps for Smartphones, etc. are dominating the software market today.\nWe need to find and learn Programming Languages that are suitable for the\nNew Age of Programming.\nWe have today several thousand different Programming Languages today.\nI\nguess you will need to learn more than one Programming Language to survive\n4",
+        "page_number": 7
+    },
+    {
+        "content": "in today’s software market.\nYou find lots of Programming Resources here:\nhttps://www.halvorsen.blog/documents/programming/\nSoftware Engineering\nSoftware Engineering is the discipline for creating software applications.\nA\nsystematic approach to the design, development, testing, and maintenance of\nsoftware.\nThe main parts or phases in the Software Engineering process are:\n• Planning\n• Requirements Analysis\n• Design\n• Implementation\n• Testing\n• Deployment and Maintenance",
+        "page_number": 8
+    },
+    {
+        "content": "lementation\n• Testing\n• Deployment and MaintenanceYou find lots of Software Engineering Resources here:\nhttps://www.halvorsen.blog/documents/programming/softwareengineering/\n5",
+        "page_number": 8
+    },
+    {
+        "content": "6",
+        "page_number": 9
+    },
+    {
+        "content": "Contents\nI\nGetting Started with Python\n11\n1\nIntroduction\n12\n1.1\nThe New Age of Programming\n. . . . . . . . . . . . . . . . . . .\n12\n1.2\nMATLAB . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n16\n2\nWhat is Python?\n18\n2.1\nIntroduction to Python\n. . . . . . . . . . . . . . . . . . . . . . .\n18\n2.1.1\nInterpreted vs. Compiled\n. . . . . . . . . . . . . . . . . .\n19\n2.2\nPython Packages . . . . . . . . . . . . . . . . . . . . . . . . . . .\n20\n2.2.1",
+        "page_number": 10
+    },
+    {
+        "content": "Python Packages for Science and Numerical Computations 21\n2.3\nAnaconda . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n21\n2.4\nPython Editors . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n22\n2.4.1\nPython IDLE . . . . . . . . . . . . . . . . . . . . . . . . .\n22\n2.4.2\nVisual Studio Code . . . . . . . . . . . . . . . . . . . . . .\n23\n2.4.3\nThonny . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n23\n2.4.4\nSpyder . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "page_number": 10
+    },
+    {
+        "content": " . . . . . . . . . . . . . . . . . . . . . . . . .23\n2.4.5\nVisual Studio . . . . . . . . . . . . . . . . . . . . . . . . .\n23\n2.4.6\nPyCharm . . . . . . . . . . . . . . . . . . . . . . . . . . .\n24\n2.4.7\nWing Python IDE . . . . . . . . . . . . . . . . . . . . . .\n24\n2.4.8\nJupyter Notebook\n. . . . . . . . . . . . . . . . . . . . . .\n24\n2.5\nResources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n25\n2.6\nInstalling Python . . . . . . . . . . . . . . . . . . . . . . . . . . .\n25\n2.6.1",
+        "page_number": 10
+    },
+    {
+        "content": "Python Windows 10 Store App . . . . . . . . . . . . . . .\n25\n2.6.2\nInstalling Anaconda . . . . . . . . . . . . . . . . . . . . .\n26\n2.6.3\nInstalling Visual Studio Code . . . . . . . . . . . . . . . .\n26\n3\nStart using Python\n27\n3.1\nPython IDE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n27\n3.2\nMy first Python program\n. . . . . . . . . . . . . . . . . . . . . .\n27\n3.3\nPython Shell\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n28\n3.4\nRunning Python from the Console",
+        "page_number": 10
+    },
+    {
+        "content": ". . . . . .\n28\n3.4\nRunning Python from the Console. . . . . . . . . . . . . . . . .\n28\n3.4.1\nOpening the Console on macOS . . . . . . . . . . . . . . .\n29\n3.4.2\nOpening the Console on Windows\n. . . . . . . . . . . . .\n30\n3.4.3\nAdd Python to Path . . . . . . . . . . . . . . . . . . . . .\n30\n3.5\nScripting Mode . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n32\n3.5.1\nRun Python Scripts from the Python IDLE . . . . . . . .\n32\n3.5.2\nRun Python Scripts from the Console (Terminal) macOS\n33\n7",
+        "page_number": 10
+    },
+    {
+        "content": "3.5.3\nRun Python Scripts from the Command Prompt in Windows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n34\n3.5.4\nRun Python Scripts from Spyder . . . . . . . . . . . . . .\n34\n4\nBasic Python Programming\n37\n4.1\nBasic Python Program . . . . . . . . . . . . . . . . . . . . . . . .\n37\n4.1.1\nGet Help\n. . . . . . . . . . . . . . . . . . . . . . . . . . .\n37\n4.2\nVariables\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n37\n4.2.1\nNumbers",
+        "page_number": 11
+    },
+    {
+        "content": ". . . . . . . . . . . . . . . . . . . . . . . . . . .\n39\n4.2.2\nStrings . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n40\n4.2.3\nString Input . . . . . . . . . . . . . . . . . . . . . . . . . .\n41\n4.3\nBuilt-in Functions\n. . . . . . . . . . . . . . . . . . . . . . . . . .\n41\n4.4\nPython Standard Library\n. . . . . . . . . . . . . . . . . . . . . .\n42\n4.5\nUsing Python Libraries, Packages and Modules . . . . . . . . . .\n43\n4.5.1\nPython Packages . . . . . . . . . . . . . . . . . . . . . . .",
+        "page_number": 11
+    },
+    {
+        "content": "ages . . . . . . . . . . . . . . . . . . . . . . .45\n4.6\nPlotting in Python . . . . . . . . . . . . . . . . . . . . . . . . . .\n45\n4.6.1\nSubplots . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n48\n4.6.2\nExercises\n. . . . . . . . . . . . . . . . . . . . . . . . . . .\n50\nII\nPython Programming\n51\n5\nPython Programming\n52\n5.1\nIf ... Else\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n52\n5.2\nArrays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n53\n5.3",
+        "page_number": 11
+    },
+    {
+        "content": "For Loops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n55\n5.3.1\nNested For Loops . . . . . . . . . . . . . . . . . . . . . . .\n58\n5.4\nWhile Loops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n59\n5.5\nExercises\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n59\n6\nCreating Functions in Python\n61\n6.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n61\n6.2\nFunctions with multiple return values\n. . . . . . . . . . . . . . .\n63\n6.3",
+        "page_number": 11
+    },
+    {
+        "content": "Exercises\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n64\n7\nCreating Classes in Python\n67\n7.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n67\n7.2\nThe\ninit () Function . . . . . . . . . . . . . . . . . . . . . . . .\n68\n7.3\nExercises\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n71\n8\nCreating Python Modules\n72\n8.1\nPython Modules\n. . . . . . . . . . . . . . . . . . . . . . . . . . .\n72\n8.2\nExercises",
+        "page_number": 11
+    },
+    {
+        "content": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n73\n9\nFile Handling in Python\n75\n9.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n75\n9.2\nWrite Data to a File . . . . . . . . . . . . . . . . . . . . . . . . .\n75\n9.3\nRead Data from a File . . . . . . . . . . . . . . . . . . . . . . . .\n76\n9.4\nLogging Data to File . . . . . . . . . . . . . . . . . . . . . . . . .\n76\n9.5\nWeb Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n77\n9.6\nExercises",
+        "page_number": 11
+    },
+    {
+        "content": ". . . . . . . . . . . . . . . . .\n77\n9.6\nExercises. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n77\n8",
+        "page_number": 11
+    },
+    {
+        "content": "10 Error Handling in Python\n80\n10.1 Introduction to Error Handling . . . . . . . . . . . . . . . . . . .\n80\n10.1.1 Syntax Errors . . . . . . . . . . . . . . . . . . . . . . . . .\n80\n10.1.2 Exceptions\n. . . . . . . . . . . . . . . . . . . . . . . . . .\n80\n10.2 Exceptions Handling . . . . . . . . . . . . . . . . . . . . . . . . .\n81\n11 Debugging in Python\n83\n12 Installing and using Python Packages\n84\n12.1 What is PIP? . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n84\nIII",
+        "page_number": 12
+    },
+    {
+        "content": "Python Environments and Distributions\n85\n13 Introduction to Python Environments and Distributions\n86\n13.1 Package and Environment Managers . . . . . . . . . . . . . . . .\n87\n13.1.1 PIP\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n87\n13.1.2 Conda . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n87\n13.2 Python Virtual Environments . . . . . . . . . . . . . . . . . . . .\n88\n14 Anaconda\n89\n14.1 Anaconda Navigator . . . . . . . . . . . . . . . . . . . . . . . . .\n89",
+        "page_number": 12
+    },
+    {
+        "content": ". . . . . . . . . . . . . . . . . . . . . . . .\n8914.2 Anaconda Prompt\n. . . . . . . . . . . . . . . . . . . . . . . . . .\n89\n15 Enthought Canopy\n92\nIV\nPython Editors\n93\n16 Python Editors\n94\n17 Spyder\n96\n17.1 Configuration . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n97\n18 Visual Studio Code\n99\n18.1 Introduction to Visual Studio Code . . . . . . . . . . . . . . . . .\n99\n18.2 Python in Visual Studio Code . . . . . . . . . . . . . . . . . . . . 100\n19 Visual Studio\n101",
+        "page_number": 12
+    },
+    {
+        "content": ". . . . . . . . . . . . . 100\n19 Visual Studio\n10119.1 Introduction to Visual Studio . . . . . . . . . . . . . . . . . . . . 101\n19.2 Work with Python in Visual Studio . . . . . . . . . . . . . . . . . 101\n19.2.1 Make Visual Studio ready for Python Programming\n. . . 102\n19.2.2 Python Interactive . . . . . . . . . . . . . . . . . . . . . . 102\n19.2.3 New Python Project . . . . . . . . . . . . . . . . . . . . . 103\n20 PyCharm\n109\n21 Wing Python IDE\n111\n22 Jupyter Notebook\n113",
+        "page_number": 12
+    },
+    {
+        "content": "109\n21 Wing Python IDE\n111\n22 Jupyter Notebook\n11322.1 JupyterHub . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114\n22.2 Microsoft Azure Notebooks . . . . . . . . . . . . . . . . . . . . . 114\n9",
+        "page_number": 12
+    },
+    {
+        "content": "V\nPython for Mathematics Applications\n116\n23 Mathematics in Python\n117\n23.1 Basic Math Functions\n. . . . . . . . . . . . . . . . . . . . . . . . 117\n23.1.1 Exercises\n. . . . . . . . . . . . . . . . . . . . . . . . . . . 119\n23.2 Statistics\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121\n23.2.1 Introduction to Statistics\n. . . . . . . . . . . . . . . . . . 121\n23.2.2 Statistics functions in Python . . . . . . . . . . . . . . . . 122",
+        "page_number": 13
+    },
+    {
+        "content": "ions in Python . . . . . . . . . . . . . . . . 12223.3 Trigonometric Functions . . . . . . . . . . . . . . . . . . . . . . . 124\n23.4 Polynomials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128\nVI\nResources\n131\n24 Python Resources\n132\n24.1 Python Distributions . . . . . . . . . . . . . . . . . . . . . . . . . 132\n24.2 Python Libraries . . . . . . . . . . . . . . . . . . . . . . . . . . . 132\n24.3 Python Editors . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132",
+        "page_number": 13
+    },
+    {
+        "content": " . . . . . . . . . . . . . . . . . . . . . . . 13224.4 Python Tutorials . . . . . . . . . . . . . . . . . . . . . . . . . . . 133\n24.5 Python in Visual Studio . . . . . . . . . . . . . . . . . . . . . . . 133\nVII\nSolutions to Exercises\n136\n10",
+        "page_number": 13
+    },
+    {
+        "content": "Part I\nGetting Started with\nPython\n11",
+        "page_number": 14
+    },
+    {
+        "content": "Chapter 1\nIntroduction\nWith this textbook you will learn basic Python programming. The textbook\ncontains lots of examples and self-paced tasks that the users should go through\nand solve in their own pace.\nYou will find additional resources on my blog/web site [1].\nhttps://www.halvorsen.blog\nMy Web Site about Python is:\nhttps://www.halvorsen.blog/documents/programming/python/\nSee Figure 1.1\n1.1\nThe New Age of Programming\nThe way we create software today has changed dramatically the last 30 years,",
+        "page_number": 15
+    },
+    {
+        "content": " today has changed dramatically the last 30 years,from the childhood of personal computers in the early 80s to today’s powerful\ndevices such as Smartphones, Tablets and PCs.\nThe Internet has also changed the way we use devices and software. We still\nhave traditional desktop applications, but Web Sites, Web Applications and socalled Apps for Smartphones, etc. are dominating the software market today.\nWe need to find and learn Programming Languages that are suitable for the\nNew Age of Programming.",
+        "page_number": 15
+    },
+    {
+        "content": " that are suitable for the\nNew Age of Programming.We have today several thousand different Programming Languages, so why\nshould we learn Python? I guess you will need to learn more than one Programming Language to survive in today’s software market. Python is easy to\nlearn, so it it a good starting point for new programmers.\nPython is an interpreted, high-level, general-purpose programming language.\nCreated by Guido van Rossum and first released in 1991 [2].\n12",
+        "page_number": 15
+    },
+    {
+        "content": "Figure 1.1: Web Site - Python\nPython is a fairly old Programming Language (1991) compared to many other\nProgramming Languages like C# (2000), Swift (2014), Java (1995), PHP (1995).\nPython has during the last 10 years become more and more popular. Today,\nPython has become one of the most popular Programming Languages.\nThere are many different rankings regarding which programming language which\nis most popular. In most of these ranking, Python is in top 10.",
+        "page_number": 16
+    },
+    {
+        "content": "ar. In most of these ranking, Python is in top 10.One of these rankings is the IEEE Spectrum’s ranking of the top programming\nlanguages [3].\nFrom this ranking we see that Python is the most popular Programming Language in 2018. See Figure 1.2\nAs we see in Figure 1.2 they categorize the different Programming Languages\ninto the following categories:\n• Web\n13",
+        "page_number": 16
+    },
+    {
+        "content": "Figure 1.2: The Most Popular Programming Languages\n• Mobile\n• Enterprise\n• Embedded\nAccording to Figure 1.2 we see that Python can be used to program Web Applications, Enterprise Applications and Embedded Applications.\nSo far Python is not used or not optimized for creating Mobile Applications. We\nhave today 2 major Mobile platforms; iOS Applications are mainly programmed\nwith the Swift Programming language, while Android Applications are mainly\nprogrammed with either Java or Kotlin.",
+        "page_number": 17
+    },
+    {
+        "content": "Another survey is the ”Stack Overflow Developer Survey 2018” [4]. See Figure\n1.3.\nAs we can see from [5] and Figure 1.4, Python becomes more and more popular\nyear by year.\nBased on Figure 1.4, the source [5] try to predict the future of Python, see\nFigure 1.5.\nBased on the surveys and statistics mention above, obviously Python is a programming language that you should learn.\nLets summarize:\n• Python is fun to learn and use and it is also named after the British\ncomedy group called Monty Python.",
+        "page_number": 17
+    },
+    {
+        "content": "fter the British\ncomedy group called Monty Python.• Python has a simple and flexible code structure and the code is easy to\nread.\n14",
+        "page_number": 17
+    },
+    {
+        "content": "Figure 1.3: The Top Programming Languages - Stack Overflow Survey\n• Python is highly extendable due to its high number of free available\nPython Packaged and Libraries\n• Python can be used on all platforms (Windows, macOS and Linux).\n• Python is multi-purpose and can be used for to program Web Applications,\nEnterprise Applications and Embedded Applications, and within Data\nScience and Engineering Applications.\n• The popularity of Python is growing fast.\n• Python is open source and free to use",
+        "page_number": 18
+    },
+    {
+        "content": "• The growing Python community makes it easy to find documentation,\ncode examples and get help when needed\nIn general, Python is a multipurpose programming language that can be used\nin many situations. But there is not one programming language which is best\nin all kind of situations, so it is important that you know about and have skills\nin different languages.\nMy list of recommendations (one of many):\n• Visual Studio and C\n• LabVIEW - a graphical programming language well suited for hardware",
+        "page_number": 18
+    },
+    {
+        "content": "ical programming language well suited for hardwareintegration, taking measurements and data logging\n• MATLAB - Numerical calculations and Scientific computing\n• Python - Numerical calculations, and Scientific computing, etc.\n• Web Programming, such as HTML, CSS, JavaScript and a Server-side\nframework/programming language like PHP, ASP.NET (C or VB.NET),\nDjango (Python based)\n15",
+        "page_number": 18
+    },
+    {
+        "content": "Figure 1.4: The Incredible Growth of Python\n• Databases (such as SQL Server and MySQL) and using the Structured\nQuery Language (SQL) or the upcoming NoSQL databases\n• App Development for the 2 main platforms iOS (XCode using the Swift\nProgramming Language) and Android (Android Studio using the Java\nProgramming Language or Kotlin Programming language)\nIf you have skills in most of the tools, programming languages and frameworks",
+        "page_number": 19
+    },
+    {
+        "content": "of the tools, programming languages and frameworksmention above, you are well suited for working as a full-time programmer or\nsoftware engineer.\n1.2\nMATLAB\nIf you are looking for MATLAB, please see the following:\nhttps://www.halvorsen.blog/documents/programming/matlab/\n16",
+        "page_number": 19
+    },
+    {
+        "content": "Figure 1.5: The Future of Python\n17",
+        "page_number": 20
+    },
+    {
+        "content": "Chapter 2\nWhat is Python?\n2.1\nIntroduction to Python\nPython is an open source and cross-platform programming language, that has\nbecome increasingly popular over the last ten years. It was first released in\n1991. Latest version is 3.7.0. CPython is the reference implementation of the\nPython programming language. Written in C, CPython is the default and most\nwidely-used implementation of the language.\nPython is a multi-purpose programming languages (due to its many extensions),",
+        "page_number": 21
+    },
+    {
+        "content": "examples are scientific computing and calculations, simulations, web development (using, e.g., the Django Web framework), etc.\nPython Home Page [6]:\nhttps://www.python.org\nThe programming language is maintained and available from (Python Software\nFoundation): https://www.python.org Here you can download the basic Python\nfeatures in one package, which includes the Python programming language interpreter, and a basic code editor, or an integrated development environment,",
+        "page_number": 21
+    },
+    {
+        "content": "called IDLE. See Figure 2.1\nBut this is just the Python core, i.e. the interpreter a very basic editor, and the\nminimum needed to create basic Python programs.\nTypically you will need more features for solving your tasks. Then you can install and use separate Python packages created by third parties. These packages\nneed to be downloaded and installed separately (typically you use something\ncalled PIP), or you choose to use, e.g., a distribution package like Anaconda.",
+        "page_number": 21
+    },
+    {
+        "content": "o use, e.g., a distribution package like Anaconda.Python is an object-oriented programming language (OOP), but you can use\nPython in basic application without the need to know about or use the objectoriented features in Python.\nPython is an interpreted programming language, this means that as a developer\n18",
+        "page_number": 21
+    },
+    {
+        "content": "Figure 2.1: IDLE - Basic Python Editor\nyou write Python (.py) files in a text editor and then put those files into the\npython interpreter to be executed. Depending on the Editor you are using, this\nis either done automatically, or you need to do it manually.\nHere are some important Python sources: [6], [7], [8].\n2.1.1\nInterpreted vs. Compiled\nWhat are the differences between Interpreted programming languages and Compiled programming languages? What kind should you choose, and why should",
+        "page_number": 22
+    },
+    {
+        "content": "uages? What kind should you choose, and why shouldyou bother?\nProgramming languages generally fall into one of two categories: Compiled or\nInterpreted. With a compiled language, code you enter is reduced to a set of\nmachine-specific instructions before being saved as an executable file.\nBoth approaches have their advantages and disadvantages.\n19",
+        "page_number": 22
+    },
+    {
+        "content": "With interpreted languages, the code is saved in the same format that you entered. Compiled programs generally run faster than interpreted ones because\ninterpreted programs must be reduced to machine instructions at run-time. It\nis usually easier to develop applications in an interpreted environment because\nyou don’t have to recompile your application each time you want to test a small\nsection.",
+        "page_number": 23
+    },
+    {
+        "content": "Python is an interpreted programming language, while e.g., C/C++ are translated by running the source code through a compiler, i.e., C/C++ are compiled\nlanguages.\nInterpreted languages, in contrast, must be parsed, interpreted, and executed\neach time the program is run.\nAnother example of an interpreted programming language is PHP, which is\nmainly used to create dynamic web pages and web applications.\nCompiled languages are all translated by running the source code through a",
+        "page_number": 23
+    },
+    {
+        "content": "compiler. This results in very efficient code that can be executed any number of\ntimes. The overhead for the translation is incurred just once, when the source\nis compiled; thereafter, it need only be loaded and executed.\nDuring the design of an application, you might need to decide whether to use a\ncompiled language or an interpreted language for the application source code.\nInterpreted languages, in contrast, must be parsed, interpreted, and executed\neach time the program is run",
+        "page_number": 23
+    },
+    {
+        "content": "Thus, an interpreted language is generally more suited for doing ”ad hoc” calculations or simulations, while compiled languages are better for permanent\napplications where speed is in focus.\n2.2\nPython Packages\nWith Python you don’t get so much out of the box. Instead of having all of\nits functionality built into its core, you need to install different packages for\ndifferent topics.\nThis approach has advantages and disadvantages. An disadvantage is that you",
+        "page_number": 23
+    },
+    {
+        "content": "ges and disadvantages. An disadvantage is that youneed to install these packages separately and then later import these modules\nin your code.\nThis is also typical approach for open source software, because everybody can\ncreate their own Python packages and distribute them. In that way you also\nfind Python packages for almost everything, from Scientific Computing to Web\nDevelopment.\n20",
+        "page_number": 23
+    },
+    {
+        "content": "These packages need to be downloaded and installed separately, or you choose\nto use, e.g., a distribution package like Anaconda, where you typically get the\npackages you need for scientific computing. With Anaconda you typically get\nthe same features as with MATLAB.\nLots of Python packages exists, depending on what you are going to solve.\nWe have Python packages for Desktop GUI Development, Database Development, Web Development, Software Development, etc.",
+        "page_number": 24
+    },
+    {
+        "content": "See an overview of Applications for Python:\nhttps://www.python.org/about/apps/\nSee also the Python Package Index (PyPI) web site:\nhttps://pypi.org\nHere you can search for, download and install many hundreds Python Packages\nwithin different topics and applications. You can also make your own Python\nPackages and distribute them here.\n2.2.1\nPython Packages for Science and Numerical Computations\nSome important Python Packages for Science and Numerical Computations are:",
+        "page_number": 24
+    },
+    {
+        "content": "• NumPy - NumPy is the fundamental package for scientific computing\nwith Python [9]\n• SciPy - SciPy is a free and open-source Python library used for scientific\ncomputing and technical computing. SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science\nand engineering. [9]\n• Matplotlib - Matplotlib is a Python 2D plotting library. [10]",
+        "page_number": 24
+    },
+    {
+        "content": "• Pandas - Pandas Python Data Analysis Library [11]\nThese packages need to be downloaded and installed separately, or you choose\nto use, e.g., a distribution package like Anaconda, where you typically get the\npackages you need for scientific computing. With Anaconda you typically get\nthe same features as with MATLAB.\n2.3\nAnaconda\nAnaconda is a distribution package, where you get Python compiler, Python\npackages and the Spyder editor, all in one package.",
+        "page_number": 24
+    },
+    {
+        "content": "ackages and the Spyder editor, all in one package.Anaconda includes Python, the Jupyter Notebook, and other commonly used\npackages for scientific computing and data science.\n21",
+        "page_number": 24
+    },
+    {
+        "content": "They offer a free version (Anaconda Distribution) and a paid version (Enterprise) Anaconda is available for Windows, macOS, and Linux\nWeb:\nhttps://www.anaconda.com\nWikipedia:\nhttps://en.wikipedia.org/wiki/Anaconda(Pythondistribution)\nSpyder and the Python packages (NumPy, SciPy, Matplotlib, ...) mention above\n+++ are included in the Anaconda Distribution.\n2.4\nPython Editors\nAn Editor is a program where you create your code (and where you can run",
+        "page_number": 25
+    },
+    {
+        "content": "and test it). Most Editors have also features for Debugging. For simple Python\nprograms you can use the IDLE Editor, but for more advanced programs a better editor is recommended.\nExamples of Python Editors:\n• Python IDLE\n• Visual Studio Code\n• Thonny\n• Spyder\n• Visual Studio\n• PyCharm\n• Wing Python IDE\n• Jupyter Notebook\nThese editors are shortly described below and in more detail later in this textbook.\nWhich editor you should use depends on your background, what kind of code",
+        "page_number": 25
+    },
+    {
+        "content": "editors you have used previously, your programming skills, what your are going\nto develop in Python, etc.\n2.4.1\nPython IDLE\nThe programming language is maintained and available from (Python Software\nFoundation): https://www.python.org Here you can download the basic Python\nfeatures in one package, which includes the Python programming language interpreter, and a basic code editor, or an integrated development environment,\ncalled IDLE. See Figure 2.1\n22",
+        "page_number": 25
+    },
+    {
+        "content": "Web:\nhttps://www.python.org\n2.4.2\nVisual Studio Code\nVisual Studio Code is a source code editor developed by Microsoft for Windows,\nLinux and macOS.\nWeb:\nhttps://code.visualstudio.com\nResources: Getting Started with Python in Visual Studio Code\n2.4.3\nThonny\nThonny is a Python IDE for beginners.\nThonny is a very simple and basic Python editor which is highly recommended for new Python users. With\nThonny you can easily install Python Libraries/Packages using a Graphical",
+        "page_number": 26
+    },
+    {
+        "content": "User Interface without the need of using more cryptic PIP commands in the\nCommand window/Terminal.\nThonny is also the default Python Editor on the Raspberry Pi OS.\nWeb: https://thonny.org\nWikipedia: https://en.wikipedia.org/wiki/Thonny\n2.4.4\nSpyder\nSpyder is an open source cross-platform integrated development environment\n(IDE) for scientific programming in the Python language.\nWeb:\nhttps://www.spyder-ide.org\nWikipedia:\nhttps://en.wikipedia.org/wiki/Spyder(software)",
+        "page_number": 26
+    },
+    {
+        "content": "ia:\nhttps://en.wikipedia.org/wiki/Spyder(software)Spyder is included in the Anaconda Distribution.\n2.4.5\nVisual Studio\nMicrosoft Visual Studio is an integrated development environment (IDE) from\nMicrosoft. It is used to develop computer programs, as well as websites, web\napps, web services and mobile apps. The deafult (main) programming language\nin Visual studio is C, but many other programming languages are supported.\nVisual studio is available for Windows and macOS.\n23",
+        "page_number": 26
+    },
+    {
+        "content": "Visual Studio (from 2017), has integrated support for Python, it is called\n”Python Support in Visual Studio”.\nWeb:\nhttps://visualstudio.microsoft.com\nWikipedia:\nhttps://en.wikipedia.org/wiki/MicrosoftV isualStudio\n2.4.6\nPyCharm\nPyCharm is cross-platform, with Windows, macOS and Linux versions. The\nCommunity Edition is free to use, while the Professional Edition (paid version)\nhas some extra features.\nWeb:\nhttps://www.jetbrains.com/pycharm/\n2.4.7\nWing Python IDE",
+        "page_number": 27
+    },
+    {
+        "content": "The Wing Python IDE family of integrated development environments (IDEs)\nfrom Wingware were created specifically for the Python programming language.\n3 different version of Wing exists [12]:\n• Wing 101 – a very simplified free version, for teaching beginning programmers\n• Wing Personal – free version that omits some features, for students and\nhobbyists\n• Wing Pro – a full-featured commercial (paid) version, for professional\nprogrammers\n2.4.8\nJupyter Notebook",
+        "page_number": 27
+    },
+    {
+        "content": "or professional\nprogrammers\n2.4.8\nJupyter NotebookThe Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and\ntext.\nWeb:\nhttp://jupyter.org\nWikipedia:\nhttps://en.wikipedia.org/wiki/ProjectJupyter\n24",
+        "page_number": 27
+    },
+    {
+        "content": "2.5\nResources\nHere are some useful Python resources:\n• The official Python Tutorial\n- https://docs.python.org/3.7/tutorial/index.html\n• The official Python Documentation\n- https://docs.python.org/3.7/index.html\n• Python Tutorial (w3schools.com) [13]\n- https://www.w3schools.com/python/\n2.6\nInstalling Python\nThe Python programming language is maintained and available from (Python\nSoftware Foundation):\nhttps://www.python.org",
+        "page_number": 28
+    },
+    {
+        "content": "Here you can download the basic Python features in one package, which includes\nthe Python programming language interpreter, and a basic code editor, or an\nintegrated development environment, called IDLE. See Figure 2.1\nFor basic Python programming this is good enough.\nFor more advanced Python Programming you typically need a better Code Editor and additional Packages.\nFor the basic Python examples in the beginning, the basic Python software\nfrom:\nhttps://www.python.org is good enough.",
+        "page_number": 28
+    },
+    {
+        "content": "tware\nfrom:\nhttps://www.python.org is good enough.I suggest you start with the basic Python software in order to learn the basics,\nthen you can upgrade to a better Editor, install addition Python packages (either\nmanually or or install Anaconda where ”everything” is included).\n2.6.1\nPython Windows 10 Store App\nPython 3.7 is also available in the Microsoft Store for Windows 10.\nThe Microsoft Store version of Python 3.7 is a simplified installer for running\nscripts and packages.",
+        "page_number": 28
+    },
+    {
+        "content": "lified installer for running\nscripts and packages.Microsoft Store version of Python 3.7 is very basic but it’s good enough to run\nthe simple scripts.\nPython 3.7 Microsoft Store edition will receive all updates automatically when\nthey are released and no manual action is required from your end.\n25",
+        "page_number": 28
+    },
+    {
+        "content": "In order to install the Microsoft Store version of Python just open Microsoft\nStore in Windows 10 and search for Python.\n2.6.2\nInstalling Anaconda\nThe Spyder Code Editor and the Python packages (such as NumPy, SciPy, matplotlib, etc) are included in the Anaconda Distribution.\nDownload and install from:\nhttps://www.anaconda.com\n2.6.3\nInstalling Visual Studio Code\nVisual Studio Code code is a simple and easy to use editor that can be used for\nmany different programming languages.",
+        "page_number": 29
+    },
+    {
+        "content": " be used for\nmany different programming languages.Download and install from:\nhttps://code.visualstudio.com\nGetting Started with Python in Visual Studio Code:\nhttps://code.visualstudio.com/docs/python/python-tutorial\n26",
+        "page_number": 29
+    },
+    {
+        "content": "Chapter 3\nStart using Python\nIn this chapter we will start to use Python in some simple examples.\n3.1\nPython IDE\nThe basic code editor, or an integrated development environment, called IDLE.\nSee Figure 3.1.\nOther Python Editors will be discussed more in detail later. For now you can\nuse the basic Python IDE (IDLE) or Spyder if you have installed the Anaconda\ndistribution package.\nFigure 3.1: Python Shell / Python IDLE Editor\n3.2\nMy first Python program",
+        "page_number": 30
+    },
+    {
+        "content": "l / Python IDLE Editor\n3.2\nMy first Python programWe will start using Python and create some code examples.\n27",
+        "page_number": 30
+    },
+    {
+        "content": "Example 3.2.1. Plotting in Python\nLets open your Python Editor and type the following:\n1 print ( ” Hello\nWorld ! ” )\nListing 3.1: Hello World Python Example\n[End of Example]\nAn extremely useful command is help(), which enters a help functionality to\nexplore all the stuff python lets you do, right from the interpreter. Press q to\nclose the help window and return to the Python prompt.\nYou can use Python in different ways, either in ”interactive” mode or in ”Scripting” mode.",
+        "page_number": 31
+    },
+    {
+        "content": "ther in ”interactive” mode or in ”Scripting” mode.The python program that you have installed will by default act as something\ncalled an interpreter. An interpreter takes text commands and runs them as\nyou enter them - very handy for trying things out.\nYo can run Python interactively in different ways either using the Console which\nis part of the operating system or the Python IDLE and the Python Shell which\nis part of the basic Python installation from https://www.python.org.\n3.3\nPython Shell",
+        "page_number": 31
+    },
+    {
+        "content": "In interactive Mode you use the Python Shell as seen in Figure 3.1.\nHere you type one and one command at a time after the ”>>>” sign in the\nPython Shell.\n1 >>> print ( ” Hello\nWorld ! ” )\n3.4\nRunning Python from the Console\nA console (or ”terminal”, or ‘command prompt’) is a textual way to interact\nwith your OS (Operating System).\nThe python program that you have installed will by default act as something\ncalled an interpreter. An interpreter takes text commands and runs them as",
+        "page_number": 31
+    },
+    {
+        "content": "n interpreter takes text commands and runs them asyou enter them - very handy for trying things out.\nBelow we see how we can run Python from the Console which is part of the OS.\n28",
+        "page_number": 31
+    },
+    {
+        "content": "3.4.1\nOpening the Console on macOS\nThe standard console on macOS is a program called Terminal. Open Terminal\nby navigating to Applications, then Utilities, then double-click the Terminal program. You can also easily search for it in the system search tool in the top right.\nThe command line Terminal is a tool for interacting with your computer. A\nwindow will open with a command line prompt message, something like this:\nLast\nl o g i n :\nTue Dec 11\n08:33:51\non\nconsole\ncomputername : ̃\nusername",
+        "page_number": 32
+    },
+    {
+        "content": "Just type python at your console, hit Enter, and you should enter Python’s\nInterpreter.\n1 Last\nl o g i n :\nTue Dec 11\n12:34:16\non\nttys000\n2 Hans−Petter−Work−MacBook−Air : ̃\nhansha$ python\n3 Python\n3 . 6 . 5\n| Anaconda ,\nInc . |\n( default ,\nApr 26\n2018 ,\n0 8 : 4 2 : 3 7 )\n4 [GCC 4 . 2 . 1\nCompatible\nClang\n4 . 0 . 1\n( tags /RELEASE 401/ f i n a l ) ]\non\ndarwin\n5 Type ” help ” ,\n” copyright ” ,\n” c r e d i t s ”\nor ” l i c e n s e ”\nf o r\nmore\ninformation .\n6 >>>",
+        "page_number": 32
+    },
+    {
+        "content": "r ” l i c e n s e ”\nf o r\nmore\ninformation .\n6 >>>The prompt >>> on the last line indicates that you are now in an interactive\nPython interpeter session, also called the “Python shell”. This is different from\nthe normal terminal command prompt!\nYou can now enter some code for python to run. Try:\n>>> print (” Hello\nWorld ”)\nSe also Figure 3.2.\nFigure 3.2: Console macOS\nTry other Python commands, e.g.:\n1 >>> a = 5\n2 >>> b = 2\n3 >>> x = 5\n4 >>> y = 3∗a + b\n5 >>> y\n29",
+        "page_number": 32
+    },
+    {
+        "content": "3.4.2\nOpening the Console on Windows\nWindow’s console is called the Command Prompt, named cmd. An easy way to\nget to it is by using the key combination Windows+R (Windows meaning the\nwindows logo button), which should open a Run dialog. Then type cmd and\nhit Enter or click Ok.\nYou can also search for it from the start menu.\nIt should look like:\nC:\\ Users \\myusername>\nJust type python in the Command Prompt, hit Enter, and you should enter\nPython’s Interpreter. See Figure 3.3.",
+        "page_number": 33
+    },
+    {
+        "content": "Figure 3.3: Command Prompt Windows\nIf you get an error message like this:\n’python’ is not recognized as an internal or external command, operable program\nor batch file.\nThen you need to add Python to your path. See instructions below.\nNote! This is also an option during the setup. While installing you can select ”Add Python.exe to path”. This option is by default set to ”Off”. To get\nthat option you need to select ”Customize”, not using the ”Default” installation.\n3.4.3\nAdd Python to Path",
+        "page_number": 33
+    },
+    {
+        "content": "e ”Default” installation.\n3.4.3\nAdd Python to PathIn the Windows menu, search for “advanced system settings” and select View\nadvanced system settings.\nIn the window that appears, click Environment Variables. . . near the bottom\nright. See Figure 3.4.\n30",
+        "page_number": 33
+    },
+    {
+        "content": "Figure 3.4: Windows System Properties\nIn the next window, find and select the user variable named Path and click\nEdit. . . to change its value. See Figure 3.5.\nSelect ”New” and add the path where ”python.exe” is located. See Figure 3.6.\nThe Default Location is:\nC:\\ Users \\ user \\AppData\\ Local \\Programs\\Python\\Python37 −32\\\nClick Save and open the Command Prompt once more and enter ”python” to\nverify it works. See Figure 3.3.\n31",
+        "page_number": 34
+    },
+    {
+        "content": "Figure 3.5: Windows System Properties\n3.5\nScripting Mode\nIn ”Scripting” mode you can write a Python Program with multiple Python\ncommands and then save it as a file (.py).\n3.5.1\nRun Python Scripts from the Python IDLE\nFrom the Python Shell you select File →New File, or you can open an existing\nPytho program or Python Script by selecting File →Open...\nLets create a new Script and type in the following:\n1 print ( ” Hello ” )\n2 print ( ”World” )\n3 print ( ”How are\nyou?” )",
+        "page_number": 35
+    },
+    {
+        "content": "” )\n2 print ( ”World” )\n3 print ( ”How are\nyou?” )In Figure 3.7 we see how this is done. As you see we can enter many Python\ncommands that together makes a Python program or Python script.\nFrom the Python Shell you select Run →Run Module or hit F5 in order to run\nor execute the Python Script. See Figure 3.8.\n32",
+        "page_number": 35
+    },
+    {
+        "content": "Figure 3.6: Windows System Properties\nThe IDLE editor is very basic, for more complicated tasks you typically may\nprefer to use another editor like Spyder, Visual Studio Code, etc.\n3.5.2\nRun Python Scripts from the Console (Terminal)\nmacOS\nFrom the Console (Terminal) on macOS:\n1 $ cd / Users /username/Downloads\n2 $ python\nhelloworld . py\nNote! Make sure you are at your system command prompt, which will have $\nor > at the end, not in Python mode (which has >>> instead)!\nSee also Figure 3.9.",
+        "page_number": 36
+    },
+    {
+        "content": "mode (which has >>> instead)!\nSee also Figure 3.9.Then it responds with:\n1 Hello\n2 World\n3 How are\nyou?\n33",
+        "page_number": 36
+    },
+    {
+        "content": "Figure 3.7: Python Script\n3.5.3\nRun Python Scripts from the Command Prompt in\nWindows\nFrom Command Prompt in Window:\n1 > cd /\n2 > cd Temp\n3 > python\nhelloworld . py\nNote! Make sure you are at your system command prompt, which will have >\nat the end, not in Python mode (which has >>> instead)!\nSee also Figure 3.10.\nThen it responds with:\n1 Hello\n2 World\n3 How are\nyou?\n3.5.4\nRun Python Scripts from Spyder\nIf you have installed the Anaconda distribution package you can use the Spyder",
+        "page_number": 37
+    },
+    {
+        "content": "aconda distribution package you can use the Spydereditor. See 3.11.\nIn the Spyder editor we have the Script Editor to the left and the interactive\nPython Shell or the Console window to the right. See See 3.11.\n34",
+        "page_number": 37
+    },
+    {
+        "content": "Figure 3.8: Running a Python Script\nFigure 3.9: Running Python Scripts from Console window on macOS\nFigure 3.10: Running Python Scripts from Console window on macOS\n35",
+        "page_number": 38
+    },
+    {
+        "content": "Figure 3.11: Running a Python Script in Spyder\n36",
+        "page_number": 39
+    },
+    {
+        "content": "Chapter 4\nBasic Python Programming\n4.1\nBasic Python Program\nWe will start using Python and create some code examples.\nWe use the basic IDLE editor (or another Python Editor)\nExample 4.1.1. Hello World Example\nLets open your Python Editor and type the following:\n1 print ( ” Hello\nWorld ! ” )\nListing 4.1: Hello World Python Example\n[End of Example]\n4.1.1\nGet Help\nAn extremely useful command is help(), which enters a help functionality to",
+        "page_number": 40
+    },
+    {
+        "content": "explore all the stuff python lets you do, right from the interpreter.\nPress q to close the help window and return to the Python prompt.\n4.2\nVariables\nVariables are defined with the assignment operator, “=”. Python is dynamically\ntyped, meaning that variables can be assigned without declaring their type, and\nthat their type can change. Values can come from constants, from computation\ninvolving values of other variables, or from the output of a function.\n37",
+        "page_number": 40
+    },
+    {
+        "content": "Example 4.2.1. Creating and using Variables in Python\nWe use the basic IDLE (or another Python Editor) and type the following:\n1 >>> x = 3\n2 >>> x\n3 3\nListing 4.2: Using Variables in Python\nHere we define a variable and sets the value equal to 3 and then print the result\nto the screen.\n[End of Example]\nYou can write one command by time in the IDLE. If you quit IDLE the variables\nand data are lost. Therefore, if you want to write a somewhat longer program,",
+        "page_number": 41
+    },
+    {
+        "content": "you are better off using a text editor to prepare the input for the interpreter\nand running it with that file as input instead. This is known as creating a script.\nPython scripts or programs are save as a text file with the extension .py\nExample 4.2.2. Calculations in Python\nWe can use variables in a calculation like this:\n1 x = 3\n2 y = 3∗x\n3 print (y )\nListing 4.3: Using and Printing Variables in Python\nWe can implement the formula y = ax + b like this:\n1 a = 2\n2 b = 5\n3 x = 3\n4\n5 y = a∗x + b\n6",
+        "page_number": 41
+    },
+    {
+        "content": "ke this:\n1 a = 2\n2 b = 5\n3 x = 3\n4\n5 y = a∗x + b\n67 print (y )\nListing 4.4: Calculations in Python\nAs seen in the examples, you can use the print() command in order to show the\nvalues on the screen.\n[End of Example]\n38",
+        "page_number": 41
+    },
+    {
+        "content": "A variable can have a short name (like x and y) or a more descriptive name\n(sum, amount, etc).\nYou don need to define the variables before you use them (like you need to to\nin, e.g., C/C++/C).\nFigure 4.1 show these examples using the basic IDLE editor.\nFigure 4.1: Basic Python\nHere are some basic rules for Python variables:\n• A variable name must start with a letter or the underscore character\n• A variable name cannot start with a number",
+        "page_number": 42
+    },
+    {
+        "content": "acter\n• A variable name cannot start with a number• A variable name can only contain alpha-numeric characters (A-z, 0-9) and\nunderscores\n• Variable names are case-sensitive, e.g., amount, Amount and AMOUNT\nare three different variables.\n4.2.1\nNumbers\nThere are three numeric types in Python:\n• int\n• float\n• complex\n39",
+        "page_number": 42
+    },
+    {
+        "content": "Variables of numeric types are created when you assign a value to them, so in\nnormal coding you don’t need to bother.\nExample 4.2.3. Numeric Types in Python\n1 x = 1\n# i n t\n2 y = 2.8\n# f l o a t\n3 z = 3 + 2 j\n# complex\nListing 4.5: Numeric Types in Python\nThis means you just assign values to a variable without worrying about what\nkind of data type it is.\n1 print ( type (x ) )\n2 print ( type (y ) )\n3 print ( type ( z ) )\nListing 4.6: Check Data Types in Python",
+        "page_number": 43
+    },
+    {
+        "content": "If you use the Spyder Editor, you can see the data types that a variable has\nusing the Variable Explorer (Figure 4.2):\nFigure 4.2: Variable Editor in Spyder\n[End of Example]\n4.2.2\nStrings\nStrings in Python are surrounded by either single quotation marks, or double\nquotation marks. ’Hello’ is the same as ”Hello”.\nStrings can be output to screen using the print function. For example: print(”Hello”).\nExample 4.2.4. Using Strings in Python\nBelow we see examples of using strings in Python:",
+        "page_number": 43
+    },
+    {
+        "content": "\nBelow we see examples of using strings in Python:1 a = ” Hello\nWorld ! ”\n2\n3 print ( a )\n4\n5 print ( a [ 1 ] )\n6 print ( a [ 2 : 5 ] )\n7 print ( len ( a ) )\n8 print ( a . lower () )\n40",
+        "page_number": 43
+    },
+    {
+        "content": "9 print ( a . upper () )\n10 print ( a . r e p l a c e ( ”H” ,\n”J” ) )\n11 print ( a . s p l i t ( ” ” ) )\nListing 4.7: Strings in Python\nAs you see in the example, there are many built-in functions form manipulating\nstrings in Python. The Example shows only a few of them.\nStrings in Python are arrays of bytes, and we can use index to get a specific\ncharacter within the string as shown in the example code.\n[End of Example]\n4.2.3\nString Input\nPython allows for command line input.",
+        "page_number": 44
+    },
+    {
+        "content": "String Input\nPython allows for command line input.That means we are able to ask the user for input.\nExample 4.2.5. String Input in Python\nThe following example asks for the user’s name, then, by using the input()\nmethod, the program prints the name to the screen:\n1 print ( ”Enter\nyour name : ” )\n2 x = input ()\n3 print ( ” Hello ,\n” + x)\nListing 4.8: String Input\n[End of Example]\n4.3\nBuilt-in Functions",
+        "page_number": 44
+    },
+    {
+        "content": "Python consists of lots of built-in functions. Some examples are the print function that we already have used (perhaps without noticing it is actually a Built-in\nfunction).\nPython also consists of different Modules, Libraries or Packages. These Modules, Libraries or Packages consists of lots of predefined functions for different\ntopics or areas, such as mathematics, plotting, handling database systems, etc.\nSee Section 4.4 for more information and details regarding this.",
+        "page_number": 44
+    },
+    {
+        "content": "4 for more information and details regarding this.In another chapter we will learn to create our own functions from scratch.\n41",
+        "page_number": 44
+    },
+    {
+        "content": "4.4\nPython Standard Library\nPython allows you to split your program into modules that can be reused in\nother Python programs. It comes with a large collection of standard modules\nthat you can use as the basis of your programs.\nThe Python Standard Library consists of different modules for handling file\nI/O, basic mathematics, etc. You don’t need to install these separately, but you\nneed to important them when you want to use some of these modules or some\nof the functions within these modules.",
+        "page_number": 45
+    },
+    {
+        "content": "The math module has all the basic math functions you need, such as: Trigonometric functions: sin(x), cos(x), etc. Logarithmic functions: log(), log10(), etc.\nConstants like pi, e, inf, nan, etc.\nExample 4.4.1. Using the math module\nWe create some basic examples how to use a Library, a Package or a Module:\nIf we need only the sin() function, we can do like this:\n1 from math import\ns i n\n2\n3 x = 3.14\n4 y = s i n ( x)\n5\n6 print (y )\nIf we need a few functions, we can do like this:",
+        "page_number": 45
+    },
+    {
+        "content": ")\nIf we need a few functions, we can do like this:1 from math import\nsin ,\ncos\n2\n3 x = 3.14\n4 y = s i n ( x)\n5 print (y )\n6\n7 y = cos (x )\n8 print (y )\nIf we need many functions, we can do like this:\n1 from math import ∗\n2\n3 x = 3.14\n4 y = s i n ( x)\n5 print (y )\n6\n7 y = cos (x )\n8 print (y )\nWe can also use this alternative:\n1 import math\n2\n3 x = 3.14\n4 y = math . s i n ( x)\n5\n6 print (y )\n42",
+        "page_number": 45
+    },
+    {
+        "content": "We can also write it like this:\n1 import math as mt\n2\n3 x = 3.14\n4 y = mt . s i n (x )\n5\n6 print (y )\n[End of Example]\nThere are advantages and disadvantages with the different approaches. In your\nprogram you may need to use functions from many different modules or packages. If you import the whole module instead of just the function(s) you need\nyou use more of the computer memory.\nVery often we also need to import and use multiple libraries where the different",
+        "page_number": 46
+    },
+    {
+        "content": "ort and use multiple libraries where the differentlibraries have some functions with the same name but different use.\nOther useful modules in the Python Standard Library are statistics (where\nyou have functions like mean(), stdev(), etc.)\nFor more information about the functions in the Python Standard Library,\nsee:\nhttps://docs.python.org/3/library/index.html\n4.5\nUsing Python Libraries, Packages and Modules",
+        "page_number": 46
+    },
+    {
+        "content": "Rather than having all of its functionality built into its core, Python was designed to be highly extensible. This approach has advantages and disadvantages.\nA disadvantage is that you need to install these packages separately and then\nlater import these modules in your code.\nSome important packages are:\n• NumPy - NumPy is the fundamental package for scientific computing\nwith Python\n• SciPy - SciPy is a free and open-source Python library used for scientific",
+        "page_number": 46
+    },
+    {
+        "content": "and open-source Python library used for scientificcomputing and technical computing. SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science\nand engineering.\n• Matplotlib - Matplotlib is a Python 2D plotting library\n43",
+        "page_number": 46
+    },
+    {
+        "content": "Lots of other packages exists, depending on what you are going to solve.\nThese packages need to be downloaded and installed separately, or you choose\nto use, e.g., a distribution package like Anaconda.\nHere you find an overview of the NumPy library:\nhttps://www.numpy.org\nHere you find an overview of the SciPy library:\nhttps://www.scipy.org\nHere you find an overview of the Matplotlib library:\nhttps://matplotlib.org",
+        "page_number": 47
+    },
+    {
+        "content": "You will learn the basics features in all these libraries. We will use all of the in\ndifferent examples and exercises throughout this textbook.\nExample 4.5.1. Using libraries\nIn this example we use the NumPy library:\n1 import numpy as np\n2\n3 x = 3\n4\n5 y = np . s i n (x )\n6\n7 print (y )\nIn this example we use both the math module in the Python Standard Library\nand the NumPy library:\n1 import math as mt\n2 import numpy as np\n3\n4 x = 3\n5\n6 y = mt . s i n (x )\n7\n8 print (y )\n9\n10",
+        "page_number": 47
+    },
+    {
+        "content": " x = 3\n5\n6 y = mt . s i n (x )\n7\n8 print (y )\n9\n1011 y = np . s i n (x )\n12\n13 print (y )\nNote! As seen in this example we use a function called sin() which exists both\nin the math module in the Python Standard Library and the NumPy library.\nIn this case they give the same results. In this case the following code is not\nrecommended:\n1 from math import ∗\n2 from numpy import ∗\n3\n4 x = 3\n5\n44",
+        "page_number": 47
+    },
+    {
+        "content": "6 y = s i n ( x)\n7\n8 print (y )\n9\n10\n11 y = s i n ( x)\n12\n13 print (y )\nIn this case it works, but assume you have 2 different functions with the same\nname that have different meaning in 2 different libraries.\n[End of Example]\n4.5.1\nPython Packages\nIn addition to the Python Standard Library, there is a growing collection of several thousand components (from individual programs and modules to packages\nand entire application development frameworks), available from the Python\nPackage Index.",
+        "page_number": 48
+    },
+    {
+        "content": "Python Package Index (PYPI):\nhttps://pypi.org\nHere you can download and install individual Python packages.\nAn easy alternative is the Anaconda Distribution, where many of the most used\nPython packages are included.\nAnaconda:\nhttps://www.anaconda.com/distribution/\n4.6\nPlotting in Python\nTypically you need to create some plots or charts. In order to make plots or\ncharts in Python you will need an external library. The most used library is\nMatplotlib.\nMatplotlib is a Python 2D plotting library",
+        "page_number": 48
+    },
+    {
+        "content": "lotlib.\nMatplotlib is a Python 2D plotting libraryHere you find an overview of the Matplotlib library:\nhttps://matplotlib.org\nIf you are familiar with MATLAB and basic plotting in MATLAB, using the\nMatplotlib is very similar.\nThe main difference from MATLAB is that you need to import the library,\neither the whole library or one or more functions.\nFor simplicity we import the whole library like this:\n1 import\nmatplotlib . pyplot\nas\np l t\n45",
+        "page_number": 48
+    },
+    {
+        "content": "Plotting functions that you will use a lot:\n• plot()\n• title()\n• xlabel()\n• ylabel()\n• axis()\n• grid()\n• subplot()\n• legend()\n• show()\nLets create some basic plotting examples using the Matplotlib library:\nExample 4.6.1. Plotting in Python\nIn this example we have two arrays with data. We want to plot x vs. y. We\ncan assume x is a time series and y is the corresponding temperature in degrees\nCelsius.\n1 import\nmatplotlib . pyplot\nas\np l t\n2\n3 x = [ 1 ,\n2 ,\n3 ,\n4 ,\n5 ,\n6 ,\n7 ,\n8 ,\n9 ,\n10]\n4",
+        "page_number": 49
+    },
+    {
+        "content": "5 y = [ 5 ,\n2 ,4 ,\n4 ,\n8 ,\n7 ,\n4 ,\n8 ,\n10 ,\n9]\n6\n7 p l t . plot (x , y )\n8 p l t . x l a b e l ( ’Time ( s ) ’ )\n9 p l t . y l a b e l ( ’ Temperature\n(degC ) ’ )\n10 p l t . show ()\nWe get the plot as shown in Figure 4.3.\nWe can also write like this:\n1 from\nmatplotlib . pyplot\nimport ∗\n2\n3 x = [ 1 ,\n2 ,\n3 ,\n4 ,\n5 ,\n6 ,\n7 ,\n8 ,\n9 ,\n10]\n4 y = [ 5 ,\n2 ,4 ,\n4 ,\n8 ,\n7 ,\n4 ,\n8 ,\n10 ,\n9]\n5\n6 plot (x , y)\n7 x l a b e l ( ’Time ( s ) ’ )\n8 y l a b e l ( ’ Temperature\n(degC) ’ )\n9 show ()",
+        "page_number": 49
+    },
+    {
+        "content": "8 y l a b e l ( ’ Temperature\n(degC) ’ )\n9 show ()This makes the code simpler to read. one problem with this approach appears\nassuming we import and use multiple libraries and the different libraries have\nsome functions with the same name but different use.\n46",
+        "page_number": 49
+    },
+    {
+        "content": "Figure 4.3: Plotting in Python\n[End of Example]\nWe have used 4 basic plotting function in the Matplotlib library:\n• plot()\n• xlabel()\n• ylabel()\n• show()\nExample 4.6.2. Plotting a Sine Curve\n1 import numpy as np\n2 import\nmatplotlib . pyplot\nas\np l t\n3\n4 x = [ 0 ,\n1 ,\n2 ,\n3 ,\n4 ,\n5 ,\n6 ,\n7]\n5\n6 y = np . s i n (x )\n7\n8 p l t . plot (x ,\ny)\n9 p l t . x l a b e l ( ’ x ’ )\n10 p l t . y l a b e l ( ’ y ’ )\n11 p l t . show ()\nThis gives the following plot (see Figure 4.4):",
+        "page_number": 50
+    },
+    {
+        "content": "()\nThis gives the following plot (see Figure 4.4):A better solution will then be:\n47",
+        "page_number": 50
+    },
+    {
+        "content": "Figure 4.4: Plotting a Sine function in Python\n1 import\nmatplotlib . pyplot\nas\np l t\n2 import numpy as np\n3\n4 x s t a r t = 0\n5 xstop = 2∗np . pi\n6 increment = 0.1\n7\n8 x = np . arange ( xstart , xstop , increment )\n9\n10 y = np . s i n (x )\n11\n12 p l t . plot (x ,\ny)\n13 p l t . x l a b e l ( ’ x ’ )\n14 p l t . y l a b e l ( ’ y ’ )\n15 p l t . show ()\nThis gives the following plot (see Figure 4.5):\nIf you want grids you can use the grid() function.\n[End of Example]\n4.6.1\nSubplots",
+        "page_number": 51
+    },
+    {
+        "content": "e grid() function.\n[End of Example]\n4.6.1\nSubplotsThe subplot command enables you to display multiple plots in the same window.\nTyping ”subplot(m,n,p)” partitions the figure window into an m-by-n matrix\nof small subplots and selects the subplot for the current plot. The plots are\nnumbered along the first row of the figure window, then the second row, and so\non. See Figure 4.6.\nExample 4.6.3. Creating Subplots\n48",
+        "page_number": 51
+    },
+    {
+        "content": "Figure 4.5: Plotting a Sine function in Python - Better Implementation\nWe will create and plot sin() and cos() in 2 different subplots.\n1 import\nmatplotlib . pyplot\nas\np l t\n2 import numpy as np\n3\n4 x s t a r t = 0\n5 xstop = 2∗np . pi\n6 increment = 0.1\n7\n8 x = np . arange ( xstart , xstop , increment )\n9\n10 y = np . s i n (x )\n11\n12 z = np . cos ( x)\n13\n14\n15 p l t . subplot (2 ,1 ,1)\n16 p l t . plot (x ,\ny ,\n’ g ’ )\n17 p l t . t i t l e ( ’ s i n ’ )\n18 p l t . x l a b e l ( ’ x ’ )",
+        "page_number": 52
+    },
+    {
+        "content": "l e ( ’ s i n ’ )\n18 p l t . x l a b e l ( ’ x ’ )19 p l t . y l a b e l ( ’ s i n (x ) ’ )\n20 p l t . grid ()\n21 p l t . show ()\n22\n23\n24 p l t . subplot (2 ,1 ,2)\n25 p l t . plot (x ,\nz ,\n’ r ’ )\n26 p l t . t i t l e ( ’ cos ’ )\n27 p l t . x l a b e l ( ’ x ’ )\n28 p l t . y l a b e l ( ’ cos ( x ) ’ )\n29 p l t . grid ()\n30 p l t . show ()\n[End of Example]\n49",
+        "page_number": 52
+    },
+    {
+        "content": "Figure 4.6: Creating Subplots in Python\n4.6.2\nExercises\nBelow you find different self-paced Exercises that you should go through and\nsolve on your own. The only way to learn Python is to do lots of Exercises!\nExercise 4.6.1. Create sin(x) and cos(x) in 2 different plots\nCreate sin(x) and cos(x) in 2 different plots.\nYou should use all the Plotting functions listed below in your code:\n• plot()\n• title()\n• xlabel()\n• ylabel()\n• axis()\n• grid()\n• legend()\n• show()\n[End of Exercise]\n50",
+        "page_number": 53
+    },
+    {
+        "content": "Part II\nPython Programming\n51",
+        "page_number": 54
+    },
+    {
+        "content": "Chapter 5\nPython Programming\nWe have been through the basics in Python, such as variables, using some basic\nbuilt-in functions, basic plotting, etc.\nYou may come far only using these thins, but to create real applications, you\nneed to know about and use features like:\n• If ... Else\n• For Loops\n• While Loops\n• Arrays ...\nIf you are familiar with one or more other programming language, these features should be familiar and known to you. All programming languages have",
+        "page_number": 55
+    },
+    {
+        "content": "r and known to you. All programming languages havethese features built-in, but the syntax is slightly different from one language to\nanother.\n5.1\nIf ... Else\nAn ”if statement” is written by using the if keyword.\nHere are some Examples how you use a If sentences in Python:\nExample 5.1.1. Using If ... Else in Python\nUsing If:\n1 a = 5\n2 b = 8\n3\n4\ni f\na > b :\n5\nprint ( ”a\ni s\ng r e a t e r\nthan b” )\n6\n7\ni f\nb > a :\n8\nprint ( ”b\ni s\ng r e a t e r\nthan a” )\n9\n10\ni f\na == b :\n52",
+        "page_number": 55
+    },
+    {
+        "content": "11\nprint ( ”a\ni s\nequal\nto b” )\nListing 5.1: If\nTry to change the values for a and b.\nUsing If - Else:\n1 a = 5\n2 b = 8\n3\n4\ni f\na > b :\n5\nprint ( ”a\ni s\ng r e a t e r\nthan b” )\n6\ne l s e :\n7\nprint ( ”b\ni s\ng r e a t e r\nthan a\nor a and b are\nequal ” )\nListing 5.2: If - Else\nUsing Elif:\n1 a = 5\n2 b = 8\n3\n4\ni f\na > b :\n5\nprint ( ”a\ni s\ng r e a t e r\nthan b” )\n6\ne l i f\nb > a :\n7\nprint ( ”b\ni s\ng r e a t e r\nthan a” )\n8\ne l i f\na == b :\n9\nprint ( ”a\ni s\nequal\nto b” )\nListing 5.3: Elif",
+        "page_number": 56
+    },
+    {
+        "content": ":\n9\nprint ( ”a\ni s\nequal\nto b” )\nListing 5.3: ElifNote! Python uses ”elif” not ”elseif” like many other programming languages\ndo.\n[End of Example]\n5.2\nArrays\nAn array is a special variable, which can hold more than one value at a time.\nHere are some Examples how you can create and use Arrays in Python:\nExample 5.2.1. Arrays in Python\n1 data = [ 1 . 6 ,\n3.4 ,\n5.5 ,\n9 . 4 ]\n2\n3 N = len ( data )\n4\n5 print (N)\n6\n7 print ( data [ 2 ] )\n8\n9 data [ 2 ] = 7.3\n10\n11 print ( data [ 2 ] )\n53",
+        "page_number": 56
+    },
+    {
+        "content": "12\n13\n14 f o r\nx\nin\ndata :\n15\nprint (x )\n16\n17\n18 data . append ( 1 1 . 4 )\n19\n20\n21 N = len ( data )\n22\n23 print (N)\n24\n25\n26 f o r\nx\nin\ndata :\n27\nprint (x )\nListing 5.4: Using Arrays in Python\nYou define an array like this:\n1 data = [ 1 . 6 ,\n3.4 ,\n5.5 ,\n9 . 4 ]\nYou can also use text like this:\n1\nc a r l i s t = [ ”Volvo” ,\n” Tesla ” ,\n”Ford” ]\nYou can use Arrays in Loops like this:\n1 f o r\nx\nin\ndata :\n2\nprint (x )\nYou can return the number of elements in the array like this:",
+        "page_number": 57
+    },
+    {
+        "content": "urn the number of elements in the array like this:1 N = len ( data )\nYou can get a specific value inside the array like this:\n1 index = 2\n2 x = cars [ index ]\nYou can use the append() method to add an element to an array:\n1 data . append ( 1 1 . 4 )\n[End of Example]\nYou have many built in methods you can use in combination with arrays, like\nsort(), clear(), copy(), count(), insert(), remove(), etc.\nYou should look into test all these methods.\n54",
+        "page_number": 57
+    },
+    {
+        "content": "5.3\nFor Loops\nA For loop is used for iterating over a sequence. I guess all your programs will\nuse one or more For loops. So if you have not used For loops before, make sure\nto learn it now.\nBelow you see a basic example how you can use a For loop in Python:\n1 f o r\ni\nin\nrange (1 ,\n10) :\n2\nprint ( i )\nThe For loop is probably one of the most useful feature in Python (or in any\nkind of programming language). Below you will see different examples how you\ncan use a For loop in Python.",
+        "page_number": 58
+    },
+    {
+        "content": "ent examples how you\ncan use a For loop in Python.Example 5.3.1. Using For Loops in Python\n1 data = [ 1 . 6 ,\n3.4 ,\n5.5 ,\n9 . 4 ]\n2\n3 f o r\nx\nin\ndata :\n4\nprint (x )\n5\n6\n7\nc a r l i s t = [ ”Volvo” ,\n” Tesla ” ,\n”Ford” ]\n8\n9 f o r\ncar\nin\nc a r l i s t :\n10\nprint ( car )\nListing 5.5: Using For Loops in Python\nThe range() function is handy to use in For Loops:\n1 N = 10\n2\n3 f o r\nx\nin\nrange (N) :\n4\nprint (x )\nThe range() function returns a sequence of numbers, starting from 0 by default,",
+        "page_number": 58
+    },
+    {
+        "content": "a sequence of numbers, starting from 0 by default,and increments by 1 (by default), and ends at a specified number.\nYou can also use the range() function like this:\n1 s t a r t = 4\n2 stop= 12 #but\nnot\nincluding\n3\n4 f o r\nx\nin\nrange ( start ,\nstop ) :\n5\nprint (x )\nFinally, you can also use the range() function like this:\n1 s t a r t = 4\n2 stop = 12 #but\nnot\nincluding\n3 step = 2\n4\n5 f o r\nx\nin\nrange ( start ,\nstop ,\nstep ) :\n6\nprint (x )\n55",
+        "page_number": 58
+    },
+    {
+        "content": "You should try all these examples in order to learn the basic structure of a For\nloop.\n[End of Example]\nExample 5.3.2. Using For Loops for Summation of Data\nYou typically want to use a For loop for find the sum of a given data set.\n1 data = [ 1 ,\n5 ,\n6 ,\n3 ,\n12 ,\n3]\n2\n3 sum = 0\n4\n5 #Find\nthe Sum of\na l l\nthe\nnumbers\n6 f o r\nx\nin\ndata :\n7\nsum = sum + x\n8\n9 print (sum)\n10\n11 #Find\nthe Mean or\nAverage\nof\na l l\nthe\nnumbers\n12\n13 N = len ( data )\n14\n15 mean = sum/N\n16\n17 print (mean)",
+        "page_number": 59
+    },
+    {
+        "content": "len ( data )\n14\n15 mean = sum/N\n16\n17 print (mean)This gives the following results:\n1 30\n2 5.0\n[End of Example]\nExample 5.3.3. Implementing Fibonacci Numbers Using a For Loop in Python\nFibonacci numbers are used in the analysis of financial markets, in strategies\nsuch as Fibonacci retracement, and are used in computer algorithms such as the\nFibonacci search technique and the Fibonacci heap data structure.\nThey also appear in biological settings, such as branching in trees, arrangement",
+        "page_number": 59
+    },
+    {
+        "content": "of leaves on a stem, the fruitlets of a pineapple, the flowering of artichoke, an\nuncurling fern and the arrangement of a pine cone.\nIn mathematics, Fibonacci numbers are the numbers in the following sequence:\n0, 1, 1, 2 ,3, 5, 8, 13, 21, 34, 55, 89, 144, . . .\nBy definition, the first two Fibonacci numbers are 0 and 1, and each subsequent\nnumber is the sum of the previous two.\nSome sources omit the initial 0, instead beginning the sequence with two 1s.\n56",
+        "page_number": 59
+    },
+    {
+        "content": "In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the\nrecurrence relation\nfn = fn−1 + fn−2\n(5.1)\nwith seed values:\nf0 = 0, f1 = 1\nWe will write a Python script that calculates the N first Fibonacci numbers.\nThe Python Script becomes like this:\n1 N = 10\n2\n3 f i b 1 = 0\n4 f i b 2 = 1\n5\n6 print ( f i b 1 )\n7 print ( f i b 2 )\n8\n9 f o r\nk\nin\nrange (N−2) :\n10\nf i b n e x t = f i b 2 +f i b 1\n11\nf i b 1 = f i b 2\n12\nf i b 2 = f i b n e x t\n13\nprint ( f i b n e x t )",
+        "page_number": 60
+    },
+    {
+        "content": "Listing 5.6: Fibonacci Numbers Using a For Loop in Python\nAlternative solution:\n1 N = 10\n2\n3\nf i b = [ 0 ,\n1]\n4\n5\n6 f o r\nk\nin\nrange (N−2) :\n7\nf i b n e x t =\nf i b [ k+1] +f i b [ k ]\n8\nf i b . append ( f i b n e x t )\n9\n10 print ( f i b )\nListing 5.7: Fibonacci Numbers Using a For Loop in Python - Alt2\nAnother alternative solution:\n1 N = 10\n2\n3\nf i b = [ ]\n4\n5 f o r\nk\nin\nrange (N) :\n6\nf i b . append (0)\n7\n8\nf i b [ 0 ] = 0\n9\nf i b [ 1 ] = 1\n10\n57",
+        "page_number": 60
+    },
+    {
+        "content": "11 f o r\nk\nin\nrange (N−2) :\n12\nf i b [ k+2] = f i b [ k+1] +f i b [ k ]\n13\n14\n15 print ( f i b )\nListing 5.8: Fibonacci Numbers Using a For Loop in Python - Alt3\nAnother alternative solution:\n1 import numpy as np\n2\n3\n4 N = 10\n5\n6\nf i b = np . zeros (N)\n7\n8\nf i b [ 0 ] = 0\n9\nf i b [ 1 ] = 1\n10\n11 f o r\nk\nin\nrange (N−2) :\n12\nf i b [ k+2] = f i b [ k+1] +f i b [ k ]\n13\n14\n15 print ( f i b )\nListing 5.9: Fibonacci Numbers Using a For Loop in Python - Alt4\n[End of Example]\n5.3.1\nNested For Loops",
+        "page_number": 61
+    },
+    {
+        "content": "hon - Alt4\n[End of Example]\n5.3.1\nNested For LoopsIn Python and other programming languages you can use one loop inside another loop.\nSyntax for nested For loops in Python:\n1 f o r\ni t e r a t i n g v a r\nin\nsequence :\n2\nf o r\ni t e r a t i n g v a r\nin\nsequence :\n3\nstatements ( s )\n4\nstatements ( s )\nSimple example:\n1 f o r\ni\nin\nrange (1 ,\n10) :\n2\nf o r\nk\nin\nrange (1 ,\n10) :\n3\nprint ( i ,\nk)\nExercise 5.3.1. Prime Numbers\nThe first 25 prime numbers (all the prime numbers less than 100) are:",
+        "page_number": 61
+    },
+    {
+        "content": "numbers (all the prime numbers less than 100) are:2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83,\n89, 97\n58",
+        "page_number": 61
+    },
+    {
+        "content": "By definition a prime number has both 1 and itself as a divisor. If it has any\nother divisor, it cannot be prime.\nA natural number (1, 2, 3, 4, 5, 6, etc.) is called a prime number (or a prime) if\nit is greater than 1 and cannot be written as a product of two natural numbers\nthat are both smaller than it.\nCreate a Python Script where you find all prime numbers between 1 and 200.\nTip! I guess this can be done in many different ways, but one way is to use 2\nnested For Loops.\n[End of Exercise]\n5.4",
+        "page_number": 62
+    },
+    {
+        "content": "While Loops\nThe while loop repeats a group of statements an indefinite number of times\nunder control of a logical condition.\nExample 5.4.1. Using While Loops in Python\n1 m = 8\n2\n3 while m > 2:\n4\nprint\n(m)\n5\nm = m −1\nListing 5.10: Using While Loops in Python\n[End of Example]\n5.5\nExercises\nBelow you find different self-paced Exercises that you should go through and\nsolve on your own. The only way to learn Python is to do lots of Exercises!\nExercise 5.5.1. Plot of Dynamic System",
+        "page_number": 62
+    },
+    {
+        "content": " Exercises!\nExercise 5.5.1. Plot of Dynamic SystemGiven the autonomous system:\ṅx = ax\n(5.2)\nWhere:\na = −1\nT\n59",
+        "page_number": 62
+    },
+    {
+        "content": "where T is the time constant.\nThe solution for the differential equation is:\nx(t) = eatx0\n(5.3)\nSet T=5 and the initial condition x(0)=1.\nCreate a Script in Python (.py file) where you plot the solution x(t) in the time\ninterval:\n0 ≤t ≤25\nAdd Grid, and proper Title and Axis Labels to the plot.\n[End of Exercise]\n60",
+        "page_number": 63
+    },
+    {
+        "content": "Chapter 6\nCreating Functions in\nPython\n6.1\nIntroduction\nA function is a block of code which only runs when it is called. You can pass\ndata, known as parameters, into a function. A function can return data as a\nresult.\nPreviously we have been using many of the built-in functions in Python\nIf you are familiar with one or more other programming language, creating and",
+        "page_number": 64
+    },
+    {
+        "content": "e or more other programming language, creating andusing functions should be familiar and known to you. All programming languages has the possibility to create functions, but the syntax is slightly different\nfrom one language to another.\nSome programming languages uses the term Method instead of a Function.\nFunctions and Methods behave in the same manner, but you could say that\nMethods are functions that belongs to a Class. We will learn more about Classes\nin Chapter 7.\nScripts vs. Functions",
+        "page_number": 64
+    },
+    {
+        "content": " about Classes\nin Chapter 7.\nScripts vs. FunctionsIt is important to know the difference between a Script and a Function.\nScripts:\n• A collection of commands that you would execute in the Editor\n• Used for automating repetitive tasks\nFunctions:\n• Operate on information (inputs) fed into them and return outputs\n• Have a separate workspace and internal variables that is only valid inside\nthe function\n61",
+        "page_number": 64
+    },
+    {
+        "content": "• Your own user-defined functions work the same way as the built-in functions you use all the time, such as plot(), rand(), mean(), std(), etc.\nPython have lots of built-in functions, but very often we need to create our own\nfunctions (we could refer to these functions as user-defined functions)\nIn Python a function is defined using the def keyword:\n1 def\nFunctionName :\n2\n<statement−1>\n3\n.\n4\n.\n5\n<statement−N>\n6\nreturn\n. . .\nExample 6.1.1. Basic Function",
+        "page_number": 65
+    },
+    {
+        "content": "Below you see a simple function created in Python:\n1 def\nadd (x , y ) :\n2\n3\nreturn\nx + y\nListing 6.1: Basic Python Function\nThe function adds 2 numbers. The name of the function is add, and it returns\nthe answer using the return statement.\nThe statement return [expression] exits a function, optionally passing back an\nexpression to the caller. A return statement with no arguments is the same as\nreturn None.\nNote that you need to use a colon ”:” at the end of line where you define the\nfunction.",
+        "page_number": 65
+    },
+    {
+        "content": " at the end of line where you define the\nfunction.Note also the indention used.\n1 def\nadd (x , y ) :\nHere you see a Python script where we use the function:\n1 def\nadd (x , y ) :\n2\n3\nreturn\nx + y\n4\n5\n6 x = 2\n7 y = 5\n8\n9 z = add (x , y)\n10\n11 print ( z )\nListing 6.2: Creating and Using a Python Function\n62",
+        "page_number": 65
+    },
+    {
+        "content": "[End of Example]\nExample 6.1.2. Create a Function in a separate File\nWe start by creating a separate Python File (myfunctions.py) for the function:\n1 def\naverage (x , y) :\n2\n3\nreturn\n(x + y) /2\nListing 6.3: Function calculating the Average\nNext, we create a new Python File (e.g., testaverage.py) where we use the\nfunction we created:\n1 from\nmyfunctions\nimport\naverage\n2\n3 a = 2\n4 b = 3\n5\n6 c = average (a , b)\n7\n8 print ( c )\nListing 6.4: Test of Average function\n[End of Example]\n6.2",
+        "page_number": 66
+    },
+    {
+        "content": "Functions with multiple return values\nTypically we want to return more than one value from a function.\nExample 6.2.1. Create a Function Function with multiple return values\nCreate the following example:\n1 def\ns t a t ( x) :\n2\n3\ntotalsum = 0\n4\n5\n#Find\nthe Sum of\na l l\nthe\nnumbers\n6\nf o r\nx\nin\ndata :\n7\ntotalsum = totalsum + x\n8\n9\n10\n#Find\nthe Mean or\nAverage\nof\na l l\nthe\nnumbers\n11\n12\nN = len ( data )\n13\n14\nmean = totalsum /N\n15\n16\n17\nreturn\ntotalsum ,\nmean\n18\n19\n20\n63",
+        "page_number": 66
+    },
+    {
+        "content": "21 data = [ 1 ,\n5 ,\n6 ,\n3 ,\n12 ,\n3]\n22\n23\n24 totalsum ,\nmean = s t a t ( data )\n25\n26 print ( totalsum ,\nmean)\nListing 6.5: Function with multiple return values\n[End of Example]\n6.3\nExercises\nBelow you find different self-paced Exercises that you should go through and\nsolve on your own. The only way to learn Python is to do lots of Exercises!\nExercise 6.3.1. Create Python Function\nCreate a function calcaverage that finds the average of two numbers.\n[End of Exercise]",
+        "page_number": 67
+    },
+    {
+        "content": "Exercise 6.3.2. Create Python functions for converting between radians and\ndegrees\nSince most of the trigonometric functions require that the angle is expressed in\nradians, we will create our own functions in order to convert between radians\nand degrees.\nIt is quite easy to convert from radians to degrees or from degrees to radians.\nWe have that:\n2π[radians] = 360[degrees]\n(6.1)\nThis gives:\nd[degrees] = r[radians] × (180\nπ )\n(6.2)\nand\nr[radians] = d[degrees] × ( π\n180)\n(6.3)",
+        "page_number": 67
+    },
+    {
+        "content": "(6.2)\nand\nr[radians] = d[degrees] × ( π\n180)\n(6.3)Create two functions that convert from radians to degrees (r2d(x)) and from\ndegrees to radians (d2r(x)) respectively.\nThese functions should be saved in one Python file .py.\nTest the functions to make sure that they work as expected.\n64",
+        "page_number": 67
+    },
+    {
+        "content": "[End of Exercise]\nExercise 6.3.3. Create a Function that Implementing Fibonacci Numbers\nFibonacci numbers are used in the analysis of financial markets, in strategies\nsuch as Fibonacci retracement, and are used in computer algorithms such as the\nFibonacci search technique and the Fibonacci heap data structure.\nThey also appear in biological settings, such as branching in trees, arrangement\nof leaves on a stem, the fruitlets of a pineapple, the flowering of artichoke, an",
+        "page_number": 68
+    },
+    {
+        "content": "uncurling fern and the arrangement of a pine cone.\nIn mathematics, Fibonacci numbers are the numbers in the following sequence:\n0, 1, 1, 2 ,3, 5, 8, 13, 21, 34, 55, 89, 144, . . .\nBy definition, the first two Fibonacci numbers are 0 and 1, and each subsequent\nnumber is the sum of the previous two.\nSome sources omit the initial 0, instead beginning the sequence with two 1s.\nIn mathematical terms, the sequence Fn of Fibonacci numbers is defined by the\nrecurrence relation\nfn = fn−1 + fn−2\n(6.4)",
+        "page_number": 68
+    },
+    {
+        "content": " by the\nrecurrence relation\nfn = fn−1 + fn−2\n(6.4)with seed values:\nf0 = 0, f1 = 1\nCreate a Function that Implementing the N first Fibonacci Numbers\n[End of Exercise]\nExercise 6.3.4. Prime Numbers\nThe first 25 prime numbers (all the prime numbers less than 100) are:\n2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83,\n89, 97\nBy definition a prime number has both 1 and itself as a divisor. If it has any\nother divisor, it cannot be prime.",
+        "page_number": 68
+    },
+    {
+        "content": ". If it has any\nother divisor, it cannot be prime.A natural number (1, 2, 3, 4, 5, 6, etc.) is called a prime number (or a prime) if\nit is greater than 1 and cannot be written as a product of two natural numbers\nthat are both smaller than it.\nTip! I guess this can be implemented in many different ways, but one way is to\nuse 2 nested For Loops.\n65",
+        "page_number": 68
+    },
+    {
+        "content": "Create a Python function where you check if a given number is a prime number\nor not.\nYou can check the function in the Command Window like this:\n1 number = 4\n2 checkifprime ( number )\nThen Python respond with True or False.\n[End of Exercise]\n66",
+        "page_number": 69
+    },
+    {
+        "content": "Chapter 7\nCreating Classes in Python\n7.1\nIntroduction\nPython is an object oriented programming (OOP) language. Almost everything\nin Python is an object, with its properties and methods.\nThe foundation for all object oriented programming (OOP) languages are Classes.\nTo create a class, use the keyword class:\n1\nc l a s s\nClassName :\n2\n<statement−1>\n3\n.\n4\n.\n5\n.\n6\n<statement−N>\nExample 7.1.1. Simple Class Example\nWe will create a simple Class in Python.\n1\nc l a s s\nCar :\n2\nmodel = ”Volvo”\n3",
+        "page_number": 70
+    },
+    {
+        "content": "s in Python.\n1\nc l a s s\nCar :\n2\nmodel = ”Volvo”\n3c o l o r = ”Blue”\n4\n5\n6 car = Car ()\n7\n8\n9 print ( car . model )\n10 print ( car . c o l o r )\nListing 7.1: Simple Python Class\nThe results will be in this case:\n1 Volvo\n2 Blue\n67",
+        "page_number": 70
+    },
+    {
+        "content": "This example don’t illustrate the good things with classes so we will create some\nmore examples.\n[End of Example]\nExample 7.1.2. Python Class\nLets create the following Python Code:\n1\nc l a s s\nCar :\n2\nmodel = ””\n3\nc o l o r = ””\n4\n5 car = Car ()\n6\n7 car . model = ”Volvo”\n8 car . c o l o r = ”Blue”\n9\n10 print ( car . c o l o r + ” ” + car . model )\n11\n12 car . model = ”Ford”\n13 car . c o l o r = ”Green”\n14\n15 print ( car . c o l o r + ” ” + car . model )\nListing 7.2: Python Class example",
+        "page_number": 71
+    },
+    {
+        "content": "You should try these examples.\n[End of Example]\n7.2\nThe\ninit\n() Function\nIn Python all classes have a built-in function called\ninit (), which is always\nexecuted when the class is being initiated.\nIn many other OOP languages we call this the Constructor.\nExercise 7.2.1. The\ninit () Function\nWe will create a simple example where we use the\ninit () function to illustrate\nthe principle.\nWe change our previous Car example like this:\n1\nc l a s s\nCar :\n2\ndef\ni n i t\n( s e l f ,\nmodel ,\nc o l o r ) :\n3",
+        "page_number": 71
+    },
+    {
+        "content": "\n2\ndef\ni n i t\n( s e l f ,\nmodel ,\nc o l o r ) :\n3s e l f . model = model\n4\ns e l f . c o l o r = c o l o r\n5\n6 car1 = Car ( ”Ford” ,\n”Green” )\n7\n8 print ( car1 . model )\n9 print ( car1 . c o l o r )\n10\n11\n68",
+        "page_number": 71
+    },
+    {
+        "content": "12 car2 = Car ( ”Volvo” ,\n”Blue” )\n13\n14 print ( car2 . model )\n15 print ( car2 . c o l o r )\nListing 7.3: Python Class Constructor Example\nLets extend the Class by defining a Function as well:\n1 # Defining\nthe\nClass\nCar\n2\nc l a s s\nCar :\n3\ndef\ni n i t\n( s e l f ,\nmodel ,\nc o l o r ) :\n4\ns e l f . model = model\n5\ns e l f . c o l o r = c o l o r\n6\n7\ndef\ndisplayCar ( s e l f ) :\n8\nprint ( s e l f . model )\n9\nprint ( s e l f . c o l o r )\n10\n11\n12 # Lets\ns t a r t\nusing\nthe\nClass\n13",
+        "page_number": 72
+    },
+    {
+        "content": "o r )\n10\n11\n12 # Lets\ns t a r t\nusing\nthe\nClass\n1314 car1 = Car ( ” Tesla ” ,\n”Red” )\n15\n16 car1 . displayCar ()\n17\n18\n19 car2 = Car ( ”Ford” ,\n”Green” )\n20\n21 print ( car2 . model )\n22 print ( car2 . c o l o r )\n23\n24\n25 car3 = Car ( ”Volvo” ,\n”Blue” )\n26\n27 print ( car3 . model )\n28 print ( car3 . c o l o r )\n29\n30 car3 . c o l o r=”Black”\n31\n32 car3 . displayCar ()\nListing 7.4: Python Class with Function\nAs you see from the code we have now defined a Class ”Car” that has 2 Class",
+        "page_number": 72
+    },
+    {
+        "content": "variables called ”model” and ”color”, and in addition we have defined a Function (or Method) called ”displayCar()”.\nIts normal to use the term ”Method” for Functions that are defined within a\nClass.\nYou declare class methods like normal functions with the exception that the\nfirst argument to each method is self.\nTo create instances of a class, you call the class using class name and pass in\nwhatever arguments its\ninit () method accepts.\nFor example:\n69",
+        "page_number": 72
+    },
+    {
+        "content": "1 car1 = Car ( ” Tesla ” ,\n”Red” )\nListing 7.5: Import Class\n[End of Example]\nExercise 7.2.2. Create the Class in a separate Python file\nWe start by creating the Class and then we save the code in ”Car.py”:\n1 # Defining\nthe\nClass\nCar\n2\nc l a s s\nCar :\n3\ndef\ni n i t\n( s e l f ,\nmodel ,\nc o l o r ) :\n4\ns e l f . model = model\n5\ns e l f . c o l o r = c o l o r\n6\n7\ndef\ndisplayCar ( s e l f ) :\n8\nprint ( s e l f . model )\n9\nprint ( s e l f . c o l o r )",
+        "page_number": 73
+    },
+    {
+        "content": "Listing 7.6: Define Python Class in separate File\nThen we create a Python Script (testCar.py) where we are using the Class:\n1 # Importing\nthe Car\nClass\n2 from Car import Car\n3\n4 # Lets\ns t a r t\nusing\nthe\nClass\n5\n6 car1 = Car ( ” Tesla ” ,\n”Red” )\n7\n8 car1 . displayCar ()\n9\n10\n11 car2 = Car ( ”Ford” ,\n”Green” )\n12\n13 print ( car2 . model )\n14 print ( car2 . c o l o r )\n15\n16\n17 car3 = Car ( ”Volvo” ,\n”Blue” )\n18\n19 print ( car3 . model )\n20 print ( car3 . c o l o r )\n21",
+        "page_number": 73
+    },
+    {
+        "content": " ( car3 . model )\n20 print ( car3 . c o l o r )\n2122 car3 . c o l o r=”Black”\n23\n24 car3 . displayCar ()\nListing 7.7: Script that is using the Class\nNotice the following line at the top:\n1 from Car import Car\n[language=Python]\n[End of Example]\n70",
+        "page_number": 73
+    },
+    {
+        "content": "7.3\nExercises\nBelow you find different self-paced Exercises that you should go through and\nsolve on your own. The only way to learn Python is to do lots of Exercises!\nExercise 7.3.1. Create Python Class\nCreate a Python Class where you calculate the degrees in Fahrenheit based on\nthe temperature in Celsius and vice versa.\nThe formula for converting from Celsius to Fahrenheit is:\nTf = (Tc × 9/5) + 32\n(7.1)\nThe formula for converting from Fahrenheit to Celsius is:\nTc = (Tf −32) × (5/9)\n(7.2)",
+        "page_number": 74
+    },
+    {
+        "content": "renheit to Celsius is:\nTc = (Tf −32) × (5/9)\n(7.2)[End of Exercise]\n71",
+        "page_number": 74
+    },
+    {
+        "content": "Chapter 8\nCreating Python Modules\nAs your program gets longer, you may want to split it into several files for easier\nmaintenance. You may also want to use a handy function that you have written\nin several programs without copying its definition into each program.\nTo support this, Python has a way to put definitions in a file and use them\nin a script or in an interactive instance of the interpreter (the Python Console\nwindow).\n8.1\nPython Modules",
+        "page_number": 75
+    },
+    {
+        "content": "er (the Python Console\nwindow).\n8.1\nPython ModulesA module is a file containing Python definitions and statements. The file name\nis the module name with the suffix .py appended.\nPython allows you to split your program into modules that can be reused in\nother Python programs. It comes with a large collection of standard modules\nthat you can use as the basis of your programs as we have seen examples of in\nprevious chapters. Not it is time to make your own modules from scratch.",
+        "page_number": 75
+    },
+    {
+        "content": " it is time to make your own modules from scratch.Consider a module to be the same as a code library. A file containing a set of\nfunctions you want to include in your application.\nPreviously you have been using different modules, libraries or packages created\nby the Python organization or by others. Here you will create your own modules\nfrom scratch.\nExample 8.1.1. Create your first Python Module\nWe will create a Python module with 2 functions. The first function should",
+        "page_number": 75
+    },
+    {
+        "content": "module with 2 functions. The first function shouldconvert from Celsius to Fahrenheit and the other function should convert from\nFahrenheit to Celsius.\nThe formula for converting from Celsius to Fahrenheit is:\nTf = (Tc × 9/5) + 32\n(8.1)\n72",
+        "page_number": 75
+    },
+    {
+        "content": "The formula for converting from Fahrenheit to Celsius is:\nTc = (Tf −32) × (5/9)\n(8.2)\nFirst, we create a Python module with the following functions (fahrenheit.py):\n1 def\nc2f (Tc) :\n2\n3\nTf = (Tc ∗9/5) + 32\n4\nreturn\nTf\n5\n6\n7 def\nf2c ( Tf ) :\n8\n9\nTc = ( Tf −32) ∗(5/9)\n10\nreturn Tc\nListing 8.1: Fahrenheit Functions\nThen, we create a Python script for testing the functions (testfahrenheit.py):\n1 from\nf a h r e n h e i t\nimport\nc2f ,\nf2c\n2\n3 Tc = 0\n4\n5 Tf = c2f (Tc)\n6\n7 print ( ” Fahrenheit :",
+        "page_number": 76
+    },
+    {
+        "content": "” + s t r ( Tf ) )\n8\n9\n10 Tf = 32\n11\n12 Tc = f2c ( Tf )\n13\n14 print ( ” Ce ls iu s :\n” + s t r (Tc) )\nListing 8.2: Python Script testing the functions\nThe results becomes:\n1 Fahrenheit :\n32.0\n2 C e ls iu s :\n0.0\n8.2\nExercises\nBelow you find different self-paced Exercises that you should go through and\nsolve on your own. The only way to learn Python is to do lots of Exercises!\nExercise 8.2.1. Create Python Module for converting between radians and\ndegrees",
+        "page_number": 76
+    },
+    {
+        "content": " Module for converting between radians and\ndegreesSince most of the trigonometric functions require that the angle is expressed in\nradians, we will create our own functions in order to convert between radians\n73",
+        "page_number": 76
+    },
+    {
+        "content": "and degrees.\nIt is quite easy to convert from radians to degrees or from degrees to radians.\nWe have that:\n2π[radians] = 360[degrees]\n(8.3)\nThis gives:\nd[degrees] = r[radians] × (180\nπ )\n(8.4)\nand\nr[radians] = d[degrees] × ( π\n180)\n(8.5)\nCreate two functions that convert from radians to degrees (r2d(x)) and from\ndegrees to radians (d2r(x)) respectively.\nThese functions should be saved in one Python file .py.\nTest the functions to make sure that they work as expected. You can choose to",
+        "page_number": 77
+    },
+    {
+        "content": "sure that they work as expected. You can choose tomake a new .py file to test these functions or you can use the Console window.\n[End of Exercise]\n74",
+        "page_number": 77
+    },
+    {
+        "content": "Chapter 9\nFile Handling in Python\n9.1\nIntroduction\nPython has several functions for creating, reading, updating, and deleting files.\nThe key function for working with files in Python is the open() function.\nThe open() function takes two parameters; Filename, and Mode.\nThere are four different methods (modes) for opening a file:\n• ”x” - Create - Creates the specified file, returns an error if the file exists\n• ”w” - Write - Opens a file for writing, creates the file if it does not exist",
+        "page_number": 78
+    },
+    {
+        "content": "• ”r” - Read - Default value. Opens a file for reading, error if the file does\nnot exist\n• ”a” - Append - Opens a file for appending, creates the file if it does not\nexist\nIn addition you can specify if the file should be handled as binary or text mode\n• ”t” - Text - Default value. Text mode\n• ”b” - Binary - Binary mode (e.g. images)\n9.2\nWrite Data to a File\nTo create a New file in Python, use the open() method, with one of the following\nparameters:",
+        "page_number": 78
+    },
+    {
+        "content": "en() method, with one of the following\nparameters:• ”x” - Create - Creates the specified file, returns an error if the file exists\n• ”w” - Write - Opens a file for writing, creates the file if it does not exist\n• ”a” - Append - Opens a file for appending, creates the file if it does not\nexist\n75",
+        "page_number": 78
+    },
+    {
+        "content": "To write to an Existing file, you must add a parameter to the open() function:\n• ”w” - Write - Opens a file for writing, creates the file if it does not exist\n• ”a” - Append - Opens a file for appending, creates the file if it does not\nexist\nExample 9.2.1. Write Data to a File\n1 f = open ( ” myfile . txt ” ,\n”x” )\n2\n3 data = ” Hello\nWorld”\n4\n5 f . write ( data )\n6\n7 f . c l o s e ()\nListing 9.1: Write Data to a File\n[End of Example]\n9.3\nRead Data from a File",
+        "page_number": 79
+    },
+    {
+        "content": "To read to an existing file, you must add the following parameter to the open()\nfunction:\n• ”r” - Read - Default value. Opens a file for reading, error if the file does\nnot exist\nExample 9.3.1. Read Data from a File\n1 f = open ( ” myfile . txt ” ,\n” r ” )\n2\n3 data = f . read ()\n4\n5 print ( data )\n6\n7 f . c l o s e ()\nListing 9.2: Read Data from a File\n[End of Example]\n9.4\nLogging Data to File\nTypically you want to write multiple data to the, e.g., assume you read some",
+        "page_number": 79
+    },
+    {
+        "content": "e multiple data to the, e.g., assume you read sometemperature data at regular intervals and then you want to save the temperature\nvalues to a File.\nExample 9.4.1. Logging Data to File\n76",
+        "page_number": 79
+    },
+    {
+        "content": "1 data = [ 1 . 6 ,\n3.4 ,\n5.5 ,\n9 . 4 ]\n2\n3 f = open ( ” myfile . txt ” ,\n”x” )\n4\n5 f o r\nvalue\nin\ndata :\n6\nrecord = s t r ( value )\n7\nf . write ( record )\n8\nf . write ( ”\\n” )\n9\n10 f . c l o s e ()\nListing 9.3: Logging Data to File\n[End of Example]\nExample 9.4.2. Read Logged Data from File\n1 f = open ( ” myfile . txt ” ,\n” r ” )\n2\n3 f o r\nrecord\nin\nf :\n4\nrecord = record . r e p l a c e ( ”\\n” ,\n”” )\n5\nprint ( record )\n6\n7 f . c l o s e ()\nListing 9.4: Read Logged Data from File\n[End of Example]",
+        "page_number": 80
+    },
+    {
+        "content": "9.5\nWeb Resources\nBelow you find different useful resources for File Handling.\nPython File Handling - w3school:\nhttps://www.w3schools.com/python/pythonfilehandling.asp\nReading and Writing Files - python.org:\nhttps://docs.python.org/3/tutorial/inputoutput.htmlreading-and-writing-files\n9.6\nExercises\nBelow you find different self-paced Exercises that you should go through and\nsolve on your own. The only way to learn Python is to do lots of Exercises!\nExercise 9.6.1. Data Logging",
+        "page_number": 80
+    },
+    {
+        "content": "do lots of Exercises!\nExercise 9.6.1. Data LoggingAssume you have the following data you want to log to a File as shown in Table\n9.1.\nLog these data to a File.\nCreate another Python Script that reads the same data.\n77",
+        "page_number": 80
+    },
+    {
+        "content": "[End of Exercise]\nExercise 9.6.2. Data Logging 2\nAssume you read data from a Temperature sensor every 10 seconds for a period\nof let say 5 minutes.\nLog the data to a File.\nYou can use the Random Generator in Python. An example of how to use the\nRandom Generator is shown below:\n1 import random\n2 f o r\nx\nin\nrange (10) :\n3\ndata = random . randint (1 ,31)\n4\nprint ( data )\nListing 9.5: Read Data from a File\nMake sure to log both the time and the temperature value",
+        "page_number": 81
+    },
+    {
+        "content": "ure to log both the time and the temperature valueCreate another Python Script that reads the same data.\nYou should also plot the data you read from the File.\n[End of Exercise]\n78",
+        "page_number": 81
+    },
+    {
+        "content": "Table 9.1: Logged Data\nTime\nValue\n1\n22\n2\n25\n3\n28\n...\n...\n79",
+        "page_number": 82
+    },
+    {
+        "content": "Chapter 10\nError Handling in Python\n10.1\nIntroduction to Error Handling\nSo far error messages haven’t been discussed. You could say that we have 2\nkinds of errors: syntax errors and exceptions.\n10.1.1\nSyntax Errors\nBelow we see an example of syntax errors:\n1 >>> print ( Hello\nWorld )\n2\nF i l e\n”<ipython−input −1−10cb182148e3>” ,\nl i n e\n1\n3\nprint ( Hello\nWorld )\n4\nˆ\n5 SyntaxError :\ni n v a l i d\nsyntax\nIn the example we have written print(Hello World) instead of print(”Hello",
+        "page_number": 83
+    },
+    {
+        "content": "World”) and then the Python Interpreter gives us an error message.\n10.1.2\nExceptions\nEven if a statement or expression is syntactically correct, it may cause an error\nwhen an attempt is made to execute it. Errors detected during execution are\ncalled exceptions and are not unconditionally fatal: you will soon learn how to\nhandle them in Python programs. Most exceptions are not handled by programs,\nhowever, and result in error messages as shown here:\n1 >>> 10 ∗\n(1/0)\n2 Traceback\n( most\nrecent",
+        "page_number": 83
+    },
+    {
+        "content": "n here:\n1 >>> 10 ∗\n(1/0)\n2 Traceback\n( most\nrecentc a l l\nl a s t ) :\n3\n4\nF i l e\n”<ipython−input −2−0b280f36835c>” ,\nl i n e\n1 ,\nin <module>\n5\n10 ∗\n(1/0)\n6\n7 ZeroDivisionError :\nd i v i s i o n\nby\nzero\nor:\n1 >>> ’ 2 ’ + 2\n2 Traceback\n( most\nrecent\nc a l l\nl a s t ) :\n3\n80",
+        "page_number": 83
+    },
+    {
+        "content": "4\nF i l e\n”<ipython−input−3−d2b23a1db757>” ,\nl i n e\n1 ,\nin <module>\n5\n’ 2 ’ + 2\n6\n7 TypeError :\nmust be\nstr ,\nnot\ni n t\n10.2\nExceptions Handling\nIt is possible to write programs that handle selected exceptions.\nIn Python we can use the following built-in Exceptions Handling features:\n• The try block lets you test a block of code for errors.\n• The except block lets you handle the error.\n• The finally block lets you execute code, regardless of the result of the tryand except blocks.",
+        "page_number": 84
+    },
+    {
+        "content": "When an error occurs, or exception as we call it, Python will normally stop and\ngenerate an error message.\nThese exceptions can be handled using the try - except statements.\nSome basic example:\n1 try :\n2\n10 ∗\n(1/0)\n3 except :\n4\nprint ( ”The\nc a l c u l a t i o n\nf a i l e d ” )\nor:\n1 try :\n2\nprint (x )\n3 except :\n4\nprint ( ”x\ni s\nnot\ndefined ” )\nYou can also use multiple exceptions:\n1 try :\n2\nprint (x )\n3 except\nNameError :\n4\nprint ( ”x\ni s\nnot\ndefined ” )\n5 except :\n6\nprint ( ”Something\ni s",
+        "page_number": 84
+    },
+    {
+        "content": "ot\ndefined ” )\n5 except :\n6\nprint ( ”Something\ni swrong” )\nThe finally block, if specified, will be executed regardless if the try block raises\nan error or not.\nExample:\n81",
+        "page_number": 84
+    },
+    {
+        "content": "1 x=2\n2\n3 try :\n4\nprint (x )\n5 except\nNameError :\n6\nprint ( ”x\ni s\nnot\ndefined ” )\n7 except :\n8\nprint ( ”Something\ni s\nwrong” )\n9\nf i n a l l y :\n10\nprint ( ”The Program\ni s\nf i n i s h e d ” )\nIn general you should use try - except - finally when you try to open a File, read\nor write to Files, connect to a Database, etc.\nExample:\n1 try :\n2\nf = open ( ” myfile . txt ” )\n3\nf . write ( ”Lorum Ipsum” )\n4 except :\n5\nprint ( ”Something went wrong when\nwriting\nto\nthe\nf i l e ” )\n6\nf i n a l l y :\n7",
+        "page_number": 85
+    },
+    {
+        "content": "hen\nwriting\nto\nthe\nf i l e ” )\n6\nf i n a l l y :\n7f . c l o s e ()\n82",
+        "page_number": 85
+    },
+    {
+        "content": "Chapter 11\nDebugging in Python\nDebugging is the process of finding and resolving defects or problems within\na computer program that prevent correct operation of computer software or a\nsystem [14].\nDebuggers are software tools which enable the programmer to monitor the execution of a program, stop it, restart it, set breakpoints, and change values in\nmemory. The term debugger can also refer to the person who is doing the debugging.",
+        "page_number": 86
+    },
+    {
+        "content": "As a programmer, one of the first things that you need for serious program\ndevelopment is a debugger.\nPython has a built-in debugger that can be used if you are coding Python with\na basic text editor and running your Python programs from the command line.\nA better option is to use the Debugging features integrated in your Python Editor. Debugging is typically integrated with the Python Editor you are using.\nSee the specific chapter for the different Python Editors.\n83",
+        "page_number": 86
+    },
+    {
+        "content": "Chapter 12\nInstalling and using Python\nPackages\nA package contains all the files you need for a module. Modules are Python\ncode libraries you can include in your project.\nSince Python is open source you can find thousands of Python Packages that\nyou can install and use in your Python programs.\nYou can use a Python Distribution like Anaconda Distribution (or similar\nPython Distributions) to download and install many common Python Packages as mentioned previously.\n12.1\nWhat is PIP?",
+        "page_number": 87
+    },
+    {
+        "content": "ackages as mentioned previously.\n12.1\nWhat is PIP?PIP is a package manager for Python packages, or modules if you like. PIP is\na tool for installing Python packages.\nIf you do not have PIP installed, you can download and install it from this page:\nhttps://pypi.org/project/pip/\nPIP is typically used from the Command Prompt (Windows) or Terminal window (macOS).\nInstalling Python Packages:\n1 pip\ni n s t a l l\npackagename\nUninstalling Python Packages:\n1 pip\nu n i n s t a l l\npackagename",
+        "page_number": 87
+    },
+    {
+        "content": "thon Packages:\n1 pip\nu n i n s t a l l\npackagenameSome Python Editors also have a graphical way of installing Python Packages,\nlike, e.g., Visual Studio.\n84",
+        "page_number": 87
+    },
+    {
+        "content": "Part III\nPython Environments and\nDistributions\n85",
+        "page_number": 88
+    },
+    {
+        "content": "Chapter 13\nIntroduction to Python\nEnvironments and\nDistributions\nPython comes with many flavours and version.\nPython is open source and everybody can bundle and distribute Python and\ndifferent Python Packages.\nA Python environment is a context in which you run Python code and includes\nPython Packages.\nAn environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages.",
+        "page_number": 89
+    },
+    {
+        "content": "tandard Library), and a set of installed packages.These components together determine which language constructs and syntax\nare valid, what operating-system functionality you can access, and which packages you can use.\nYou can have multiple Python Environments on your Computer.\nSome of them are:\n• CPython distribution available from python.org\n• Anaconda\n• Enthought Canopy\n• WinPython\n• etc.\nIt is easy to start using Python by installing one of these Python Distributions.\n86",
+        "page_number": 89
+    },
+    {
+        "content": "But you can also install the core Python from:\nhttps://www.python.org\nThen install the additional Python Packages you need by using PIP.\nhttps://pypi.org/project/pip/\n13.1\nPackage and Environment Managers\nThe two most popular tools for installing Python Packages and setting up\nPython environments are:\n• PIP - a Python Package Manager\n• Conda - a Package and Environment Manager (for Python and other languages)\n13.1.1\nPIP\nWeb:\nhttps://pypi.org",
+        "page_number": 90
+    },
+    {
+        "content": "PIP is typically used from the Command Prompt (Windows) or Terminal window (macOS).\nInstalling Python Packages:\n1 pip\ni n s t a l l\npackagename\nUninstalling Python Packages:\n1 pip\nu n i n s t a l l\npackagename\n13.1.2\nConda\nConda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda installs, runs\nand updates packages and their dependencies.\nThe Conda package and environment manager is included in all versions of Anaconda.",
+        "page_number": 90
+    },
+    {
+        "content": "t manager is included in all versions of Anaconda.Conda was created for Python programs, but it can package and distribute software for any language.\nConda allows you to to also create separate environments containing files, packages and their dependencies that will not interact with other environments.\n87",
+        "page_number": 90
+    },
+    {
+        "content": "Web:\nhttps://conda.io/\nConda is part of or integrated with the Anaconda Python Distribution.\nWeb:\nhttps://www.anaconda.com\n13.2\nPython Virtual Environments\nPython ”Virtual Environments” allow Python packages to be installed in an\nisolated location for a particular application, rather than being installed globally.\nYou can have multiple Python Environments on your computer.\nPython Virtual Environments have their own installation directories and they",
+        "page_number": 91
+    },
+    {
+        "content": "s have their own installation directories and theydon’t share libraries with other virtual environments.\nPython ”Virtual Environments” is handy when you have different Python applications that needs different versions of Python or different version of the Python\nPackages you are using.\n88",
+        "page_number": 91
+    },
+    {
+        "content": "Chapter 14\nAnaconda\nAnaconda is not an Editor, but a Python Distribution package. Spyder is included in the Python Distribution package. You can also use Anaconda to install\nother Editors or Python packages.\nIt is available for Windows, macOS and Linux.\nWeb:\nhttps://www.anaconda.com\nWikipedia:\nhttps://en.wikipedia.org/wiki/Anaconda(Pythondistribution)\n14.1\nAnaconda Navigator\nAnaconda Navigator is a desktop graphical user interface (GUI) included in",
+        "page_number": 92
+    },
+    {
+        "content": "Anaconda distribution that allows users to launch applications and manage\nPython packages. The Anaconda Navigator can search for packages and install\nthem on your computer, run the packages and update them.\nFigure 14.1 shows the Anaconda Navigator.\n14.2\nAnaconda Prompt\nYou can use the Anaconda Prompt if you need to install extra Python packages,\netc.\nLet say you want to install the Python Control Systems Library package. Just\nenter the following in the Anaconda Prompt:\npip\ni n s t a l l",
+        "page_number": 92
+    },
+    {
+        "content": "ollowing in the Anaconda Prompt:\npip\ni n s t a l lc o n t r o l\n89",
+        "page_number": 92
+    },
+    {
+        "content": "Figure 14.1: Anaconda Navigator\nPython Package Index, or just pip, is a tool used to handle and install Python\npackages.\nFor for information about pip and different packages you can install, see the\nfollowing:\nhttps://pypi.org\nFigure 14.2 shows where you can find the Anaconda Prompt. Windows: Search\nfor Anaconda Prompt in the Search field in the start menu.\n90",
+        "page_number": 93
+    },
+    {
+        "content": "Figure 14.2: Anaconda Navigator\n91",
+        "page_number": 94
+    },
+    {
+        "content": "Chapter 15\nEnthought Canopy\nEnthought Canopy is a Python Platform or Python Distribution for Scientists\nand Engineers.\nIt is available for Windows, macOS and Linux.\nCanopy is freely available to all users under the Canopy license. Canopy provides access to several hundreds Python packages, including NumPy, SciPy,\nPandas, Matplotlib, and IPython.\nIn addition, we have the Canopy Python Editor.\nEnthought Canopy is a competitor to the Anaconda Python Distribution. It is",
+        "page_number": 95
+    },
+    {
+        "content": "petitor to the Anaconda Python Distribution. It isa matter of taste who you prefer.\nWeb:\nhttps://www.enthought.com/product/canopy/\n92",
+        "page_number": 95
+    },
+    {
+        "content": "Part IV\nPython Editors\n93",
+        "page_number": 96
+    },
+    {
+        "content": "Chapter 16\nPython Editors\nAn Editor is a program where you create your code (and where you can run\nand test it). Most Editors have also features for Debugging and IntelliSense.\nIn theory, you can use Windows Notepad for creating Python programs, but\nin practice it is impossible to create programs without having an editor with\nDebugging, IntelliSense, color formatting, etc.\nFor simple Python programs you can use the IDLE Editor, but for more advanced programs a better editor is recommended.",
+        "page_number": 97
+    },
+    {
+        "content": "Examples of Python Editors:\n• Spyder\n• Visual Studio Code\n• Thonny\n• Visual Studio\n• PyCharm\n• Wing\n• JupyterNotebook\nWe will give an overview of these Code Editors in the next chapters.\nI guess hundreds of different editors can be used for Python Programming, either out of the box or if you install an additional Extension that makes sure\nyou can use Python in that editor.\nIf you already have a favorite Code Editor, it is a good change you can use that\none for Python programming.",
+        "page_number": 97
+    },
+    {
+        "content": "hange you can use that\none for Python programming.Which editor you should use depends on your background, what kind of code\neditors you have used previously, your programming skills, what your are going\n94",
+        "page_number": 97
+    },
+    {
+        "content": "to develop in Python, etc.\nIf you are familiar with MATLAB, Spyder is recommended. Also, if you want\nto use Python for numerical calculations and computations, Spyder is a good\nchoice.\nIf you want to create Web Applications or other kinds of Applications, other\nEditors are probably better to use.\nFor Internet of Things Applications, simple editors like Visual Studio Code or",
+        "page_number": 98
+    },
+    {
+        "content": "cations, simple editors like Visual Studio Code orThonny may be good choices. Thonny is also the default editor on the Raspberry Pi OS, which is popular Internet of Things platform.\nFor a list of ”Best Python Editors”, see [15].\n95",
+        "page_number": 98
+    },
+    {
+        "content": "Chapter 17\nSpyder\nSpyder - short for ”Scientific PYthon Development EnviRonment”.\nSpyder is an open source cross-platform integrated development environment(IDE)\nfor scientific programming in the Python language.\nFigure 17.1: Spyder Editor\nThe Spyder editor consists of the following parts or windows:\n• Code Editor window\n• iPython Console window\n96",
+        "page_number": 99
+    },
+    {
+        "content": "• Variable Explorer\n• etc.\nWeb:\nhttps://www.spyder-ide.org\nIf you have used MATLAB previously or want to use Python for scientific use,\nSpyder is a good choice. it is easy to install using the Anaconda Distribution.\nWeb:\nhttps://www.anaconda.com\n17.1\nConfiguration\nTypically you want to show figures and plots in separate windows.\nSelect Tools-Preferences as shown in Figure 17.2.\nFigure 17.2: Python Tools-Preferences\nThen select ”Automatic” as shown in Figure 17.3.\n97",
+        "page_number": 100
+    },
+    {
+        "content": "Figure 17.3: Python Preferences window\n98",
+        "page_number": 101
+    },
+    {
+        "content": "Chapter 18\nVisual Studio Code\n18.1\nIntroduction to Visual Studio Code\nVisual Studio Code is a simple and easy to use editor that can be used for many\ndifferent programming languages.\nFigure 18.1: Using Visual Studio Code as Python Editor\nRight-Click and select ”Run Python File in Terminal”\nWeb:\nhttps://code.visualstudio.com\nWikipedia:\nhttps://en.wikipedia.org/wiki/VisualStudioCode\n99",
+        "page_number": 102
+    },
+    {
+        "content": "18.2\nPython in Visual Studio Code\nIn addition to Visual Studio Code you need to install the Python extension for\nVisual Studio Code.\nYou must install a Python interpreter yourself separately from the extension.\nFor a quick install, use Python from python.org.\nhttps://www.python.org\nPython is an interpreted language, and in order to run Python code and get\nPython IntelliSense within Visual Studio Code, you must tell Visual Studio\nCode which interpreter to use.\nWeb:",
+        "page_number": 103
+    },
+    {
+        "content": " Visual Studio\nCode which interpreter to use.\nWeb:https://code.visualstudio.com/docs/languages/python\n100",
+        "page_number": 103
+    },
+    {
+        "content": "Chapter 19\nVisual Studio\n19.1\nIntroduction to Visual Studio\nMicrosoft Visual Studio is an integrated development environment (IDE) from\nMicrosoft. It is used to develop computer programs, as well as websites, web\napps, web services and mobile apps. The default (main) programming language\nin Visual studio is C, but many other programming languages are supported.\nYou could say Visual Studio is the big brother of Visual Studio Code.\nVisual studio is available for Windows and macOS.",
+        "page_number": 104
+    },
+    {
+        "content": "Visual Studio (from 2017), has integrated support for Python, it is called\n”Python Support in Visual Studio”.\nWeb:\nhttps://visualstudio.microsoft.com\nWikipedia:\nhttps://en.wikipedia.org/wiki/MicrosoftV isualStudio\nGo to my Web Site to learn more about Visual Studio and C programming:\nhttps://www.halvorsen.blog/\nVisual Studio and C:\nhttps://www.halvorsen.blog/documents/programming/csharp/\n19.2\nWork with Python in Visual Studio\nWork with Python in Visual Studio:",
+        "page_number": 104
+    },
+    {
+        "content": "n Visual Studio\nWork with Python in Visual Studio:https://docs.microsoft.com/visualstudio/python/\n101",
+        "page_number": 104
+    },
+    {
+        "content": "Figure 19.1: Using Visual Studio as Python Editor\n19.2.1\nMake Visual Studio ready for Python Programming\nVisual Studio is mainly for Windows. A MacOS version of Visual Studio do\nexists, but it has lot less features than the Windows edition.\nNote that Python support is available only on Visual Studio for Windows. If\nyou use Mac and Linux, you need to use Visual Studio Code. You could say\nVisual Studio Code is a down-scaled version of Visual Studio.",
+        "page_number": 105
+    },
+    {
+        "content": "Visual Studio (from 2017), has integrated support for Python, it is called\n”Python Support in Visual Studio”. Even if it is integrated, you need to manually select which components you want to install on your computer. Make sure\nto download and run the latest Visual Studio 2017 installer for Windows.\nwhen you run the Visual Studio installer (either for the first time or if you\nalready have installed Visual Studio 2017 and want to modify it) the window\nshown in Figure 19.2 pops up.",
+        "page_number": 105
+    },
+    {
+        "content": "The installer presents you with a list of so called workloads, which are groups of\nrelated options for specific development areas. For Python, select the ”Python\ndevelopment” workload and select Install (Figure 19.3).\n19.2.2\nPython Interactive\nTo quickly test Python support, launch Visual Studio, press Alt+I (or select\nfrom the menu: Tools - Python - Python Interactive Window) to open the\nPython Interactive window. See Figure 19.4.\nLets write something like this:\n1 >>> a = 2\n102",
+        "page_number": 105
+    },
+    {
+        "content": "Figure 19.2: Installing Python Extension for Visual Studio\nFigure 19.3: Python Development Workload\n2 >>> b = 5\n3 >>> x = 3\n4 >>> y = a∗x + b\n5 >>> y\n19.2.3\nNew Python Project\nLets see how we can create a Python Application.\nStart by select from the menu: File - New - Project... The New Project window\npops up. See Figure 19.5.\nWe can create an ordinary Python Application (one or more Python Scripts),\nwe can choose to create a Web Application using either Web Frameworks like",
+        "page_number": 106
+    },
+    {
+        "content": "a Web Application using either Web Frameworks likeDjango or Flask, or we can create different Desktop GUI applications. We can\nalso create Games.\nExample 19.2.1. Python Hello World Application in Visual Studio\n103",
+        "page_number": 106
+    },
+    {
+        "content": "Figure 19.4: Python Interactive\nWe start by creating a basic Hello World Python Application. See Figure 19.1.\nSelect File - New - Project... The New Project window pops up. See Figure 19.5.\nName the project, e.g, ”PythonApplication1”.\nIn the Project Explorer, open the ”PythonApplication1.py” file and enter the\nfollowing Python code:\n1 print ( ” Hello\nWorld” )\nHit F5 (our click the green arrow) in order to run or execute the Python program.",
+        "page_number": 107
+    },
+    {
+        "content": "You can also right click on the file and select ”Start without Debugging”.\n[End of Example]\nExample 19.2.2. Visual Studio Python Plotting\nCreate a new Python File by right click in the Solution Explorer and select Add\n- New Item... and then select ”Empty Python File”.\nEnter the following Python Code:\n1 import\nmatplotlib . pyplot\nas\np l t\n2 import numpy as np\n3\n4 x s t a r t = 0\n5 xstop = 2∗np . pi\n6 increment = 0.1\n7\n8 x = np . arange ( xstart , xstop , increment )\n9\n10 y = np . s i n (x )\n11",
+        "page_number": 107
+    },
+    {
+        "content": " , xstop , increment )\n9\n10 y = np . s i n (x )\n1112 p l t . plot (x ,\ny)\n13 p l t . t i t l e ( ’ y=s i n (x ) ’ )\n104",
+        "page_number": 107
+    },
+    {
+        "content": "Figure 19.5: New Python Project\n14 p l t . x l a b e l ( ’ x ’ )\n15 p l t . y l a b e l ( ’ y ’ )\n16 p l t . grid ()\n17 p l t . axis ( [ 0 ,\n2∗np . pi ,\n−1,\n1 ] )\n18 p l t . show ()\nSee also Figure 19.6.\nMake sure to select proper Python Environment. See Figure (19.7). Visual\nStudio supports multiple Python Environments.\nIn this example we use the Matplotlib package for plotting, so we need to have\nthat package installed on the computer. You can install the Matplotlib package",
+        "page_number": 108
+    },
+    {
+        "content": "in different Python Environments.\nI have installed the Matplotlib package as part of the Anaconda distribution\nsetup, so I select ”Anaconda x.x.x” in the Python Environments window.\nIf you haven’t installed the Matplotlib package yet (either as part of Anaconda\nor manually using PIP), you can also easily install Python packages from Visual\nstudio. See Figure 19.8.\nYou can also easily see which Python Packages that are installed for the different Python Environments. See Figure 19.9.\n105",
+        "page_number": 108
+    },
+    {
+        "content": "Figure 19.6: Python Plotting Example with Visual Studio\nThe good thing about using Visual Studio is that you have a graphical user\ninterface for everything, you don’t need to use the Command window etc. for\ninstalling Python Packages, etc.\nHit F5 (our click the green arrow) in order to run or execute the Python program.\nYou can also right click on the file and select ”Start without Debugging”.\nWe get the following results, see Figure 19.10.\n[End of Example]\n106",
+        "page_number": 109
+    },
+    {
+        "content": "Figure 19.7: Select your Python Environment\nFigure 19.8: Install Python Packages from Visual Studio\n107",
+        "page_number": 110
+    },
+    {
+        "content": "Figure 19.9: Installing Python Packages for different Python Environments from\nVisual Studio\nFigure 19.10: Python Plotting Example with Visual Studio\n108",
+        "page_number": 111
+    },
+    {
+        "content": "Chapter 20\nPyCharm\nPyCharm is cross-platform, with Windows, macOS and Linux versions. The\nCommunity Edition is free to use, while the Professional Edition (paid version)\nhas some extra features.\nThe PyCharm Editor is shown in Figure 20.1.\nFigure 20.1: PyCharm Python Editor\nWeb:\nhttps://www.jetbrains.com/pycharm/\nWikipedia:\nhttps://en.wikipedia.org/wiki/PyCharm\nAnaconda and JetBrains also have a collaboration and offer what they call PyCharm for Anaconda. You can download it here:\n109",
+        "page_number": 112
+    },
+    {
+        "content": "https://www.jetbrains.com/pycharm/promo/anaconda/\nWe have code editors like Visual Studio and Visual Studio Code which can be\nused for many different programming languages by installing different types of\nplugins.\nEditors like Spyder and PyCharm are tailor-made editors for the Python language.\nSpyder is light-weight IDE typically used for scientific use. PyCharm on the\nother hand is full-blown IDE for software development in general by using the",
+        "page_number": 113
+    },
+    {
+        "content": "E for software development in general by using thePython language. It supports many plugins, it’s easier to program Django, etc.\n110",
+        "page_number": 113
+    },
+    {
+        "content": "Chapter 21\nWing Python IDE\nThe Wing Python IDE family of integrated development environments (IDEs)\nfrom Wingware were created specifically for the Python programming language.\n3 different version of Wing exists [12]:\n• Wing 101 – a very simplified free version, for teaching beginning programmers\n• Wing Personal – free version that omits some features, for students and\nhobbyists\n• Wing Pro – a full-featured commercial (paid) version, for professional\nprogrammers\nFigure 21.1: Wing Python IDE\nWeb:",
+        "page_number": 114
+    },
+    {
+        "content": "onal\nprogrammers\nFigure 21.1: Wing Python IDE\nWeb:https://wingware.com\n111",
+        "page_number": 114
+    },
+    {
+        "content": "Wikipedia:\nhttps://en.wikipedia.org/wiki/WingIDE\n112",
+        "page_number": 115
+    },
+    {
+        "content": "Chapter 22\nJupyter Notebook\nThe Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and\ntext.\nThe Notebook has support for over 40 programming languages, including Python.\nFigure 22.1: Jupyter Notebook [16]\nWeb:\nhttp://jupyter.org\nWikipedia:\nhttps://en.wikipedia.org/wiki/ProjectJupyter\n113",
+        "page_number": 116
+    },
+    {
+        "content": "22.1\nJupyterHub\nJupyterHub is a multi-user version of the notebook designed for companies,\nclassrooms and research labs [17].\nJupyterHub runs in the cloud or on your own hardware.\nJupyterHub is open-source and designed to be run on a variety of infrastructure.\nThis includes commercial cloud providers, virtual machines, or even your own\nlaptop hardware.\nWeb:\nhttp://jupyter.org/hub\n22.2\nMicrosoft Azure Notebooks\nMicrosoft Azure Notebooks is a version of Jupyter Notebook from Microsoft.",
+        "page_number": 117
+    },
+    {
+        "content": "The good thing about Microsoft Azure Notebooks is that you have the infrastructure and everything up and running ready for you to use. You can use it\nfor free as well.\nWeb:\nhttps://notebooks.azure.com\nExample 22.2.1. Example Name\nFigure 22.2 shows an overview of my Azure Notebook Projects.\nFigure 22.2: Azure Notebook Projects\nFigure 22.3 shows an overview of my Azure Notebook Project Notebooks.\nFigure 22.4 shows an example of a simple Notebook.\n[End of Example]\n114",
+        "page_number": 117
+    },
+    {
+        "content": "Figure 22.3: Azure Notebook Project Notebooks\nFigure 22.4: Azure Notebook Example\n115",
+        "page_number": 118
+    },
+    {
+        "content": "Part V\nPython for Mathematics\nApplications\n116",
+        "page_number": 119
+    },
+    {
+        "content": "Chapter 23\nMathematics in Python\nPython is a powerful tool for mathematical calculations.\nIf you are looking for similar using MATLAB, please take a look at these resources:\nhttps://www.halvorsen.blog/documents/programming/matlab/\n23.1\nBasic Math Functions\nThe Python Standard Library consists of different modules for handling file\nI/O, basic mathematics, etc. You don’t need to install these separately, but you\nneed to important them when you want to use some of these modules or some",
+        "page_number": 120
+    },
+    {
+        "content": "when you want to use some of these modules or someof the functions within these modules.\nIn this chapter we will focus on the math module that is part of the Python\nStandard Library.\nThe math module has all the basic math functions you need, such as: Trigonometric functions: sin(x), cos(x), etc. Logarithmic functions: log(), log10(), etc.\nConstants like pi, e, inf, nan, etc. etc.\nExample 23.1.1. Using the math module\nWe create some basic examples how to use a Library, a Package or a Module:",
+        "page_number": 120
+    },
+    {
+        "content": "mples how to use a Library, a Package or a Module:If we need only the sin() function we can do like this:\n1 from math import\ns i n\n2\n3 x = 3.14\n4 y = s i n ( x)\n5\n6 print (y )\nIf we need a few functions we can do like this\n117",
+        "page_number": 120
+    },
+    {
+        "content": "1 from math import\nsin ,\ncos\n2\n3 x = 3.14\n4 y = s i n ( x)\n5 print (y )\n6\n7 y = cos (x )\n8 print (y )\nIf we need many functions we can do like this:\n1 from math import ∗\n2\n3 x = 3.14\n4 y = s i n ( x)\n5 print (y )\n6\n7 y = cos (x )\n8 print (y )\nWe can also use this alternative:\n1 import math\n2\n3 x = 3.14\n4 y = math . s i n ( x)\n5\n6 print (y )\nWe can also write it like this:\n1 import math as mt\n2\n3 x = 3.14\n4 y = mt . s i n (x )\n5\n6 print (y )\n[End of Example]",
+        "page_number": 121
+    },
+    {
+        "content": "There are advantages and disadvantages with the different approaches. In your\nprogram you may need to use functions from many different modules or packages. If you import the whole module instead of just the function(s) you need\nyou use more of the computer memory.\nVery often we also need to import and use multiple libraries where the different\nlibraries have some functions with the same name but different use.\nOther useful modules in the Python Standard Library are statistics (where",
+        "page_number": 121
+    },
+    {
+        "content": " the Python Standard Library are statistics (whereyou have functions like mean(), stdev(), etc.)\nFor more information about the functions in the Python Standard Library,\nsee:\nhttps://docs.python.org/3/library/\n118",
+        "page_number": 121
+    },
+    {
+        "content": "23.1.1\nExercises\nBelow you find different self-paced Exercises that you should go through and\nsolve on your own. The only way to learn Python is to do lots of Exercises!\nExercise 23.1.1. Create Mathematical Expressions in Python\nCreate a function that calculates the following mathematical expression:\nz = 3x2 +\np\nx2 + y2 + eln (x)\n(23.1)\nTest with different values for x and y.\n[End of Exercise]\nExercise 23.1.2. Create advanced Mathematical Expressions in Python",
+        "page_number": 122
+    },
+    {
+        "content": "Create the following expression in Python:\nf(x) = ln (ax2 + bx + c) −sin(ax2 + bx + c)\n4πx2 + cos(x −2)(ax2 + bx + c)\n(23.2)\nGiven a = 1, b = 3, c = 5 Find f(9)\n(The answer should be f(9) = 0.0044)\nTip! You should split the expressions into different parts, such as:\npoly = ax2 + bx + c\nnum = . . .\nden = . . .\nf = . . .\nThis makes the expression simpler to read and understand, and you minimize\nthe risk of making an error while typing the expression in Python.",
+        "page_number": 122
+    },
+    {
+        "content": "ng an error while typing the expression in Python.When you got the correct answer try to change to, e.g., a = 2, b = 8, c = 6\nFind f(9)\n[End of Exercise]\nExercise 23.1.3. Pythagoras\n119",
+        "page_number": 122
+    },
+    {
+        "content": "Figure 23.1: Right-angled triangle\nPythagoras theorem is as follows:\nc2 = a2 + b2\n(23.3)\nCreate a function that uses Pythagoras to calculate the hypotenuse of a rightangled triangle (Figure 23.1), e.g.:\n1 def\npythagoras (a , b)\n2\n. . .\n3\n. . .\n4\nreturn\nc\n[End of Exercise]\nExercise 23.1.4. Albert Einstein\nGiven the famous equation from Albert Einstein:\nE = mc2\n(23.4)\nThe sun radiates 385x1024J/s of energy.\nCalculate how much of the mass on the sun is used to create this energy per day.",
+        "page_number": 123
+    },
+    {
+        "content": " on the sun is used to create this energy per day.How many years will it take to convert all the mass of the sun completely? Do\nwe need to worry if the sun will be used up in our generation or the next? justify\nthe answer.\nThe mass of the sun is 2x1030kg.\n120",
+        "page_number": 123
+    },
+    {
+        "content": "[End of Exercise]\nExercise 23.1.5. Cylinder Surface Area\nCreate a function that finds the surface area of a cylinder based on the height\n(h) and the radius (r) of the cylinder. See Figure ??.\nFigure 23.2: cylinder\n[End of Exercise]\n23.2\nStatistics\n23.2.1\nIntroduction to Statistics\nMean or average:\nThe mean is the sum of the data divided by the number of data points. It is\ncommonly called ”the average”.\nFormula for mean:\n̄x = x1 + x2 + x3 + ... + xN\nN\n= 1\nN\nN\nX\ni=1\nxi\n(23.5)\nExample 23.2.1. Mean",
+        "page_number": 124
+    },
+    {
+        "content": " xN\nN\n= 1\nN\nN\nX\ni=1\nxi\n(23.5)\nExample 23.2.1. MeanGiven the following dataset: 2.2, 4.5, 6.2, 3.6, 2.6\nMean:\n̄x = 1\nN\nN\nX\ni=1\nxi = 2.2 + 4.5 + 6.2 + 3.6 + 2.6\n5\n= 19.1\n5\n= 3.82\n(23.6)\n121",
+        "page_number": 124
+    },
+    {
+        "content": "[End of Example]\nVariance:\nVariance is a measure of the variation in a data set.\nvar(x) = 1\nN\nN\nX\ni=1\n(xi − ̄x)2\n(23.7)\nStandard deviation:\nThe standard deviation is a measure of the spread of the values in a dataset\nor the value of a random variable. It is defined as the square root of the variance.\nstd(x) = σ = √var =\nv\nu\nu\nt 1\nN\nN\nX\ni=1\n(xi − ̄x)2\n(23.8)\nWe typically use the symbol σ for standard deviation.\nWe have that σ2 = var(x)\n23.2.2\nStatistics functions in Python",
+        "page_number": 125
+    },
+    {
+        "content": "Mathematical statistics functions in Python:\nhttps://docs.python.org/3/library/statistics.html\nstatistics is part of the The Python Standard Library.\nFor more information about the functions in the Python Standard Library,\nsee:\nhttps://docs.python.org/3/library/\nExample 23.2.2. Statistics using the statistics module in Python Standard\nLibrary\nBelow you find some examples how to use some of the statistics functions in the\nstatistics module in Python Standard Library:\n1 import\ns t a t i s t i c s",
+        "page_number": 125
+    },
+    {
+        "content": "hon Standard Library:\n1 import\ns t a t i s t i c sas\nst\n2\n3 data = [ −1.0 ,\n2.5 ,\n3.25 ,\n5 . 7 5 ]\n4\n5 #Mean or\nAverage\n6 m = st . mean( data )\n7 print (m)\n8\n9 # Standard\nDeviation\n10 st dev = st . stdev ( data )\n122",
+        "page_number": 125
+    },
+    {
+        "content": "11 print ( st dev )\n12\n13 # Median\n14 med = st . median ( data )\n15 print (med)\n16\n17 # Variance\n18 var = st . variance ( data )\n19 print ( var )\nListing 23.1: Statistics functions in Python\n[End of Example]\nIMPORTANT: Do not name your file ”statistics.py” since the import will be\nconfused and throw the errors of the library not existing and the mean function\nnot existing.\nYou can also use the NumPy Library. NumPy is the fundamental package for\nscientific computing with Python.",
+        "page_number": 126
+    },
+    {
+        "content": "Here you find an overview of the NumPy library:\nhttp://www.numpy.org\nExample 23.2.3. Statistics using the NumPy Library\nBelow you find some examples how to use some of the statistics functions in\nNumPy:\n1 import numpy as np\n2\n3 data = [ −1.0 ,\n2.5 ,\n3.25 ,\n5 . 7 5 ]\n4\n5 #Mean or\nAverage\n6 m = np . mean( data )\n7 print (m)\n8\n9 # Standard\nDeviation\n10 st dev = np . std ( data )\n11 print ( st dev )\n12\n13 # Median\n14 med = np . median ( data )\n15 print (med)\n16\n17 # Minimum Value",
+        "page_number": 126
+    },
+    {
+        "content": "dian ( data )\n15 print (med)\n16\n17 # Minimum Value18 minv = np . min( data )\n19 print ( minv )\n20\n21 # Maxumum Value\n22 maxv = np . max( data )\n23 print (maxv)\nListing 23.2: Statistics using the NumPy Library\n123",
+        "page_number": 126
+    },
+    {
+        "content": "[End of Example]\nExercise 23.2.1. Create your own Statistics Module in Python\nUsing the built-in functions in the Python Standard Library or the NumPy library is straightforward.\nIn order to get a deeper understanding of the mathematics behind these functions and to learn more Python programming, you should create your own\nStatistics Module in Python.\nCreate your own Statistics Module in Python (e.g., ”mystatistics.py) and then",
+        "page_number": 127
+    },
+    {
+        "content": "create a Python Script (e.g., ”testmystatistics.py) where you test these functions.\nYou should at least implement functions for mean, variance, standard deviation,\nminimum and maximum.\n[End of Exercise]\n23.3\nTrigonometric Functions\nPython offers lots of Trigonometric functions, e.g., sin, cos, tan, etc.\nNote! Most of the trigonometric functions require that the angle is expressed in\nradians.\nExample 23.3.1. Trigonometric Functions in Math module\n1 import math as mt\n2\n3 x = 2∗mt . pi\n4",
+        "page_number": 127
+    },
+    {
+        "content": "ath module\n1 import math as mt\n2\n3 x = 2∗mt . pi\n45 y = mt . s i n (x )\n6 print (y )\n7\n8 y = mt . cos (x )\n9 print (y )\n10\n11 y = mt . tan (x )\n12 print (y )\nListing 23.3: Trigonometric Functions in Math module\nHere we have used the Math module in the Python Standard Library.\nFor more information about the functions in the Python Standard Library,\nsee:\nhttps://docs.python.org/3/library/index.html\n124",
+        "page_number": 127
+    },
+    {
+        "content": "[End of Example]\nExample 23.3.2. Plotting Trigonometric Functions\nIn the example above we used some of the trigonometric functions in basic calculations.\nLets see if we are able to plot these functions.\n1 import math as mt\n2 import\nmatplotlib . pyplot\nas\np l t\n3\n4 xdata = [ ]\n5 ydata = [ ]\n6\n7 f o r\nx\nin\nrange (0 ,\n10) :\n8\nxdata . append (x )\n9\ny = mt . s i n (x )\n10\nydata . append (y )\n11\n12 p l t . plot ( xdata ,\nydata )\n13 p l t . show ()\nListing 23.4: Plotting Trigonometric Functions",
+        "page_number": 128
+    },
+    {
+        "content": " ()\nListing 23.4: Plotting Trigonometric FunctionsIn the example we have plotted sin(x), we can easily extend the program to plot\ncos(x), etc.\nFor more information about the functions in the Python Standard Library,\nsee:\nhttps://docs.python.org/3/library/index.html\n[End of Example]\nExample 23.3.3. Trigonometric Functions using NumPy\nThe problem with using the Trigonometric functions in the the Math module\nfrom the Python Standard Library is that they don’t handle an array as input.",
+        "page_number": 128
+    },
+    {
+        "content": "brary is that they don’t handle an array as input.We will use the NumPy library instead because they handle arrays, in addition\nto all the handy functionality in the NumPy library.\n1 import numpy as np\n2 import\nmatplotlib . pyplot\nas\np l t\n3\n4 x s t a r t = 0\n5 xstop = 2∗np . pi\n6 increment = 0.1\n7\n8 x = np . arange ( xstart , xstop , increment )\n9\n10 y = np . s i n (x )\n125",
+        "page_number": 128
+    },
+    {
+        "content": "11 p l t . plot (x ,\ny)\n12 p l t . t i t l e ( ’ y=s i n (x ) ’ )\n13 p l t . x l a b e l ( ’ x ’ )\n14 p l t . y l a b e l ( ’ y ’ )\n15 p l t . grid ()\n16 p l t . axis ( [ 0 ,\n2∗np . pi ,\n−1,\n1 ] )\n17 p l t . show ()\n18\n19 y = np . cos (x )\n20 p l t . plot (x ,\ny)\n21 p l t . t i t l e ( ’ y=cos (x ) ’ )\n22 p l t . x l a b e l ( ’ x ’ )\n23 p l t . y l a b e l ( ’ y ’ )\n24 p l t . grid ()\n25 p l t . axis ( [ 0 ,\n2∗np . pi ,\n−1,\n1 ] )\n26 p l t . show ()\n27\n28 y = np . tan (x )\n29 p l t . plot (x ,",
+        "page_number": 129
+    },
+    {
+        "content": "y)\n30 p l t . t i t l e ( ’ y=tan (x ) ’ )\n31 p l t . x l a b e l ( ’ x ’ )\n32 p l t . y l a b e l ( ’ y ’ )\n33 p l t . grid ()\n34 p l t . axis ( [ 0 ,\n2∗np . pi ,\n−1,\n1 ] )\n35 p l t . show ()\nListing 23.5: Trigonometric Functions using NumPy\nThis Python script gives the plots as shown in Figure 23.3.\n[End of Example]\nExercise 23.3.1. Create Python functions for converting between radians an\ndegrees\nSince most of the trigonometric functions require that the angle is expressed in",
+        "page_number": 129
+    },
+    {
+        "content": "c functions require that the angle is expressed inradians, we will create our own functions in order to convert between radians\nand degrees.\nIt is quite easy to convert from radians to degrees or from degrees to radians.\nWe have that:\n2π[radians] = 360[degrees]\n(23.9)\nThis gives:\nd[degrees] = r[radians] × (180\nπ )\n(23.10)\nand\nr[radians] = d[degrees] × ( π\n180)\n(23.11)\nCreate two functions that convert from radians to degrees (r2d(x)) and from\ndegrees to radians (d2r(x)) respectively.\n126",
+        "page_number": 129
+    },
+    {
+        "content": "These functions should be saved in one Python file .py.\nTest the functions to make sure that they work as expected.\n[End of Exercise]\nExercise 23.3.2. Trigonometric functions on right triangle\nGiven right triangle as shown in Figure 23.4.\nCreate a function that finds the angle A (in degrees) based on input arguments\n(a,c), (b,c) and (a,b) respectively.\nUse, e.g., a third input “type” to define the different types above.",
+        "page_number": 130
+    },
+    {
+        "content": "Use you previous function r2d() to make sure the output of your function is in\ndegrees and not in radians.\nTest the function to make sure it works properly.\nTip! We have that:\nsin(A) = a\nc →A = arcsin(a\nc )\n(23.12)\ncos(A) = b\nc →A = arccos(b\nc)\n(23.13)\ntan(A) = a\nb →A = arctan(a\nb )\n(23.14)\nWe may also need to use the Pythagoras’ theorem:\nc2 = a2 + b2\n(23.15)\n1 >>> a=5\n2 >>> b=8\n3 >>> c = sqrt ( a∗∗2 + b∗∗2)\n4\n5 >>> A = r i g h t t r i a n g l e (a , c , ’ s i n ’ )\n6 A =\n7\n32.0054\n8",
+        "page_number": 130
+    },
+    {
+        "content": "i a n g l e (a , c , ’ s i n ’ )\n6 A =\n7\n32.0054\n89 >>> A = r i g h t t r i a n g l e (b , c , ’ cos ’ )\n10 A =\n11\n32.0054\n12 >>> A = r i g h t t r i a n g l e (a , b , ’ tan ’ )\n13 A =\n14\n32.0054\nWe also see that the answer in this case is the same, which is expected.\n127",
+        "page_number": 130
+    },
+    {
+        "content": "[End of Exercise]\nExercise 23.3.3. Law of Cosines\nGiven the triangle as shown in Figure 23.5.\nCreate a function where you find c using the law of cosines.\nc2 = a2 + b2 −2ab cos(C)\n(23.16)\nTest the functions to make sure it works properly.\n[End of Exercise]\nExercise 23.3.4. Plotting Trigonometric Functions\nPlot sin(θ) and cos(θ) for 0 ≤θ ≤2π in the same plot (both in the same plot\nand in 2 different subplots).\nMake sure to add labels and a legend and use different line styles and colors for",
+        "page_number": 131
+    },
+    {
+        "content": "egend and use different line styles and colors forthe plots.\n[End of Exercise]\n23.4\nPolynomials\nA polynomial is expressed as:\np(x) = p1xn + p2xn−1 + ... + pnx + pn+1\n(23.17)\nwhere p1, p2, p3, ... are the coefficients of the polynomial.\nWe will use the Polynomial Module in the NumPy Package.\nWeb:\nhttps://numpy.org/doc/stable/reference/routines.polynomials.polynomial.html\nOther Resources:\nPython Advanced Course Topics - Polynomials:\nhttps://www.python-course.eu/polynomialclassinpython.php\n128",
+        "page_number": 131
+    },
+    {
+        "content": "Figure 23.3: Trigonometric Functions\n129",
+        "page_number": 132
+    },
+    {
+        "content": "Figure 23.4: Right Triangle\nFigure 23.5: Law of Cosines\n130",
+        "page_number": 133
+    },
+    {
+        "content": "Part VI\nResources\n131",
+        "page_number": 134
+    },
+    {
+        "content": "Chapter 24\nPython Resources\nHere you find my Web page with Python resources [1]:\nhttps://www.halvorsen.blog/documents/programming/python/\nPython Home Page [6]:\nhttps://www.python.org\nPython Standard Library [18]:\nhttps://docs.python.org/3/library/index.html\n24.1\nPython Distributions\nAnaconda:\nhttps://www.anaconda.com\n24.2\nPython Libraries\nNumPy Library:\nhttp://www.numpy.org\nSciPy Library:\nhttps://www.scipy.org\nMatplotlib Library:\nhttps://matplotlib.org\n24.3\nPython Editors\nSpyder:",
+        "page_number": 135
+    },
+    {
+        "content": "https://matplotlib.org\n24.3\nPython Editors\nSpyder:https://www.spyder-ide.org\n132",
+        "page_number": 135
+    },
+    {
+        "content": "Visual studio Code:\nhttps://code.visualstudio.com\nVisual Studio:\nhttps://visualstudio.microsoft.com\nPyCharm:\nhttps://www.jetbrains.com/pycharm/\nWing:\nhttps://wingware.com\nJupyter Notebook:\nhttp://jupyter.org\n24.4\nPython Tutorials\nPython Tutorial - w3schools.com [13]:\nhttps://www.w3schools.com/python/\nThe Python Guru [19]:\nhttps://thepythonguru.com\nWikibooks - A Beginner’s Python Tutorial:\nhttps://en.wikibooks.org/wiki/ABeginner\nTutorialsPoints - Python Tutorial:",
+        "page_number": 136
+    },
+    {
+        "content": "/wiki/ABeginner\nTutorialsPoints - Python Tutorial:https://www.tutorialspoint.com/python/\nThe Hitchhiker’s Guide to Python:\nhttps://docs.python-guide.org\nGoogle’s Python Class:\nhttps://developers.google.com/edu/python/\n24.5\nPython in Visual Studio\nWork with Python in Visual Studio\nhttps://docs.microsoft.com/visualstudio/python/\n133",
+        "page_number": 136
+    },
+    {
+        "content": "Bibliography\n[1] H.-P. Halvorsen, “Technology blog - https://www.halvorsen.blog,” 2018.\n[2] H.-P. Halvorsen, “Technology blog - https://en.wikipedia.org/wiki/Python(programminglanguage),′′ 20\n[3] T.\n.\nT.\nP.\nLanguages,\n“The\n2018\ntop\nprogramming\nlanguages\n-\nhttps://spectrum.ieee.org/at-work/innovation/the-2018-topprogramming-languages,” 2018.\n[4] S.\nOverflow,\n“Stack\noverflow\ndeveloper\nsurvey\n2018\n-\nhttps://insights.stackoverflow.com/survey/2018/,” 2018.\n[5] stackoverflow.blog,\n“The\nincredible",
+        "page_number": 137
+    },
+    {
+        "content": "growth\nof\npython\n-\nhttps://stackoverflow.blog/2017/09/06/incredible-growth-python/,”\n2018.\n[6] python.org, “python.org - https://www.python.org,” 2018.\n[7] python.org, “The python tutorial - https://docs.python.org/3.7/tutorial/,”\n2018.\n[8] python.org, “Python 3.7.1 documentation - https://docs.python.org/3.7/,”\n2018.\n[9] scipy.org, “Scipy - https://www.scipy.org,” 2018.\n[10] matplotlib.org, “Matplotlib - https://matplotlib.org,” 2018.\n[11] pandas, “pandas - http://pandas.pydata.org,” 2018.",
+        "page_number": 137
+    },
+    {
+        "content": "[12] Wingware, “Wingware python ide - https://wingware.com,” 2018.\n[13] w3schools.com, “Python tutorial - https://www.w3schools.com/python/,”\n2018.\n[14] Wikipedia, “Debugging - https://en.wikipedia.org/wiki/Debugging,” 2018.\n[15] TechBeamers,\n“Get\nthe\nbest\npython\nide\n-\nhttps://www.techbeamers.com/best-python-ide-python-programming/,”\n2018.\n[16] Jupyter, “Jupyter - https://jupyter.org,” 2018.\n[17] JupyterHub, “Jupyterhub - http://jupyter.org/hub,” 2018.\n134",
+        "page_number": 137
+    },
+    {
+        "content": "[18] python.org,\n“The\npython\nstandard\nlibrary\n-\nhttps://docs.python.org/3/library/,” 2018.\n[19] T. P. Guru, “The python guru - https://thepythonguru.com,” 2018.\n135",
+        "page_number": 138
+    },
+    {
+        "content": "Part VII\nSolutions to Exercises\n136",
+        "page_number": 139
+    },
+    {
+        "content": "Start using Python\nSimulation and Plotting of Dynamic System\nGiven the autonomous system:\ṅx = ax\n(1)\nWhere:\na = −1\nT\nwhere T is the time constant.\nThe solution for the differential equation is:\nx(t) = eatx0\n(2)\nSet T=5 and the initial condition x(0)=1.\nCreate a Script in Python (.py file) where you plot the solution x(t) in the time\ninterval:\n0 ≤t ≤25\nAdd Grid, and proper Title and Axis Labels to the plot.\nPython Script:\n1 import math as mt\n2 import numpy as np\n3 import\nmatplotlib . pyplot\nas",
+        "page_number": 140
+    },
+    {
+        "content": "import numpy as np\n3 import\nmatplotlib . pyplot\nasp l t\n4\n5\n6 # Model Parameters\n7 T = 5\n8 a = −1/T\n9\n10 # Simulation\nParameters\n11 x0 = 1\n12 t = 0\n13\n14 t s t a r t = 0\n137",
+        "page_number": 140
+    },
+    {
+        "content": "15 tstop = 25\n16\n17 increment = 1\n18\n19 x = [ ]\n20 x = np . zeros ( tstop +1)\n21\n22 t = np . arange ( t s t a r t , tstop +1, increment )\n23\n24\n25 # Define\nthe\nFunction\n26 f o r\nk\nin\nrange ( tstop ) :\n27\nx [ k ] = mt . exp ( a∗t [ k ] )\n∗x0\n28\n29\n30 # Plot\nthe\nSimulation\nResults\n31 p l t . plot ( t , x)\n32 p l t . t i t l e ( ’ Simulation\nof\nDynamic System ’ )\n33 p l t . x l a b e l ( ’ t ’ )\n34 p l t . y l a b e l ( ’ x ’ )\n35 p l t . grid ()\n36 p l t . axis ( [ 0 ,\n25 ,\n0 ,\n1 ] )",
+        "page_number": 141
+    },
+    {
+        "content": "t . grid ()\n36 p l t . axis ( [ 0 ,\n25 ,\n0 ,\n1 ] )37 p l t . show ()\nThe simulation gives the results as shown in Figure 1.\nFigure 1: Simulation of Dynamic System\n[End of Exercise]\n138",
+        "page_number": 141
+    },
+    {
+        "content": "Python Programming\n©Hans-Petter Halvorsen\nJune 12, 2026\nISBN:978-82-691106-4-7\n139",
+        "page_number": 142
+    },
+    {
+        "content": "Python Programming",
+        "page_number": 143
+    }
+]
